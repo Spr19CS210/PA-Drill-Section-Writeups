@@ -1,7 +1,8 @@
 # CS 210 Drill Writeups
 
 credits: Russ Lewis wrote most of the original drills, 
-         Michelle Strout converted them into a github and gradescope organization
+         Michelle Strout converted them into a github and gradescope organization,
+         Michelle Strout and Allison Obourn developed drills to support the PAs
 
 This file is online at github 
 https://github.com/UACS210Fall2018/PA-Drill-Section-Writeups/new/master/Drills.
@@ -13,13 +14,10 @@ we use to solve problems with a computer is programming.
 This semester, you will be learning and practicing the skill of programming in Java.
 For the last couple of decades, Java has been the first or second most popular
 programming language (https://fossbytes.com/most-popular-programming-languages/).
-Thus there are many tools that have been developed to ease programming and development
-in Java.
 
-Programming is a skill
-that like all other skills require practice to learn and improve.  In CS 210 this
-Fall 2018, you will be doing programming drills that are due each Friday.  These
-drills provide you an opportunity to learn and practice the basic syntax and semantics
+Programming is a skill that like all other skills require practice to learn and improve.  
+In CS 210 this Fall 2018, you will be doing programming drills that are due each Friday.
+These drills provide you an opportunity to learn and practice the basic syntax and semantics
 of Java and how to use Java to solve and test solutions for the kinds of problems
 that will appear in the larger programming assignments.
 
@@ -36,14 +34,33 @@ can see the code in your private drill repository.
    (ONE TIME SETUP)
    
  * In Eclipse (see [FIXME] to set up Eclipse), import the drill repository.
- 
- *
-   [Talk some about the drill organization.]
+   [FIXME: Talk some about the drill organization.]
    In the src/edu/uacs210fall2018/drill##/ directories, there will be
 a Drill##.java file (and later other files) that you will be editing.
    (ONE TIME SETUP)
+   
+ * Give it a try!  There is a src/edu/uacs210fall2018/drillexample/ 
+   subdirectory with the files DrillExampleTestClass.java and DrillExample.java.
+   
+     * In the Eclipse Package Explorer, right click on the 
+       DrillExampleTestClass.java and click Run As --> JUnit Test.  
+       One of the tests cases will run and the others will not.
+       
+     * Go to Gradescope and submit the DrillExample.java file to
+       the Drill Example Assignment.  Note that the autograder is running
+       the same tests that are in DrillExampleTestClass.java and it
+       will tell you your grade for the example.  The example is not 
+       actually being graded, it is just there to illustrate how drills
+       will be completely autograded in Gradescope.
+       
+     * Back in Eclipse, uncomment the implementations of the drill solutions 
+       in the DrillExample.java file.  Try running the JUnit tests again.
+       All the tests should now pass.  DO NOT FORGET to do a commit
+       and a push to your drill github repository to capture the changes
+       you have made (see instructions for working with github repositories FIXME).
+     
 
-### Doing a Drill
+### Doing a Graded Drill
 
 Doing a drill consists of (1) downloading the files for the drill,
 (2) adding those files to your drill repository, (3) writing code
@@ -51,14 +68,19 @@ to solve one drill problem at a time, (3) test each drill problem
 solution in Eclipse using JUnit, and (4) submitting the solution
 to the appropriate drill assignment in Gradescope.
 
+#### (1) Downloading the files for the drill
 
+For each drill assignment, there is a src/edu/uacs210fall2018/drill##/
+subdirectory in your drill github repository.  Your drill github repository
+was initially copied from the public drill repository [FIXME].
+As the semester progresses, we will be posting the Drill##TestClass.java,
+Drill##.java, and any other needed files in the public drill repository.
 
-* For each drill assignment, there will be 
 You just put the files for Drill01 into your repository
    on your machine and if you did a commit and push a copy is also in your
    repository on github.
 the Drill##TestClass.java,
-Drill##.java, and any other needed files
+
 
 
 Give it a try!  In the Eclipse Package Explorer, right click
