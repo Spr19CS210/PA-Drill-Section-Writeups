@@ -130,3 +130,8 @@ inputs are, and what the return value ought to be.  You will write your
 code in the Drill##.java file.  Each exercise comes with "skeleton code" 
 - that is, the basic mechanics of the method.  Your job is to fill in 
 the part in the middle marked with a TODO.
+
+NOTE: The drills are meant to take less than one hour to 
+complete each week.  If you get stuck, then post a question on piazza
+right away.  You can post a question anonymously to your classmates
+or privately the CS 210 instructors and section leaders.
