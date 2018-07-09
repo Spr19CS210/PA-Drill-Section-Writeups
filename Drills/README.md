@@ -72,9 +72,10 @@ to the appropriate drill assignment in Gradescope.
 
 For each drill assignment, there is a src/edu/uacs210fall2018/drill##/
 subdirectory in your drill github repository.  Your drill github repository
-was initially copied from the public drill repository [FIXME].
+was initially copied from the drills public repository
+https://github.com/UACS210Fall2018/Drills-Public.
 As the semester progresses, we will be posting the Drill##TestClass.java,
-Drill##.java, and any other needed files in the public drill repository.
+Drill##.java, and any other needed files in the drills public repository.
 
 You just put the files for Drill01 into your repository
    on your machine and if you did a commit and push a copy is also in your
