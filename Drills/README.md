@@ -25,7 +25,7 @@ that will appear in the larger programming assignments.
 *IMPORTANT:* The drills are meant to take less than one hour to 
 complete each week.  If you get stuck, then post a question on piazza
 right away.  You can post a question anonymously to your classmates
-or privately the CS 210 instructors and section leaders.
+or privately the to CS 210 instructors and section leaders.
 
 ### Getting Started with Drills
 
@@ -110,4 +110,4 @@ your file(s) to Gradescope.  Feel free to submit partially done drills
 to check on your progress (and provide yourself at least some partial
 credit if you forget to finish the drill).
 
-### Now go read drill00-README.md
+### Now go read drill00-README.md and get started learning and practicing Java!
