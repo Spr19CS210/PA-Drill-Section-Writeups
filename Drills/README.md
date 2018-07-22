@@ -33,16 +33,13 @@ Let's start by having you create your own private drill repository on github,
 which you will be using all semester.  No one but you and the CS 210 staff
 can see the code in your private drill repository.
 
- * (ONE TIME SETUP)Fill out the google form at ([FIXME]) with your github email address.  
-   This needs to be a .edu email address that is associated with the free github account
-   you are going to use for this course.  NOTE: This step involves some human latency.
-   Please expect to wait up to 24 hours.
-
  * (ONE TIME SETUP) Each student will create their own drill repository by 
    accepting the drill assignment at https://classroom.github.com/a/dzc3_cjr.
+   The github account you use must have your netid@email.arizona.edu email
+   address associated with it for you to accept assignments in github for CS 210.
    ALL of your drills should be committed and pushed to your drill github repository to 
    enable the CS 210 staff to help you with any questions or issues you are 
-   having remotely.
+   having over piazza or email.
    
  * (ONE TIME SETUP) In Eclipse, import the drill repository.
    In Eclipse: File --> Import --> Git,Projects from Git, Next, Clone URI, Provide the
@@ -91,7 +88,16 @@ You can download the file to your machine and place it in the appropriate
 drill##/ subdirectory in your Eclipse Drill project.  Make sure to do a
 Team --> Commit and Push on those new files.
 
-#### (2) Recommendations
+#### (2) Submitting Drills via Gradescope
+
+Log in to your Gradescope account and find the Drill## assignment for CS 210
+and click on submit.  Drag the files you need to submit (i.e., Drill##.java)
+from the eclipse package browser to the Gradescope submission window or
+navigate through the Gradescope file finder.  Click Upload and you should see
+your grade for the drill in 5-10 seconds.
+
+
+#### (3) Recommendations
 
 Work on implementing one method at a time.  For the drills, you will be 
 given simple Java methods and (and later classes) to implement.  A method is 
