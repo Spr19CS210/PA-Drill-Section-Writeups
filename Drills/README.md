@@ -1,8 +1,8 @@
 # CS 210 Drill Writeups
 
-credits: Russ Lewis wrote most of the original drills, 
-         Michelle Strout converted them into a github and gradescope organization,
-         Michelle Strout and Allison Obourn developed drills to support the PAs
+credits: Russ Lewis wrote most of the original drills for 127A&B in CloudCoder, 
+         Michelle Strout converted some into a github and gradescope organization,
+         Michelle Strout and Allison Obourn developed drills to support the PAs in 210
 
 This file is online at github 
 https://github.com/UACS210Fall2018/PA-Drill-Section-Writeups/new/master/Drills.
@@ -10,13 +10,13 @@ https://github.com/UACS210Fall2018/PA-Drill-Section-Writeups/new/master/Drills.
 ## Drills for Fall 2018
 
 Computer Science is the art of solving problems with computers.  The main mechanism
-we use to solve problems with a computer is programming.
-This semester, you will be learning and practicing the skill of programming in Java.
-For the last couple of decades, Java has been the first or second most popular
-programming language (https://fossbytes.com/most-popular-programming-languages/).
+we use to solve problems with a computer is programming.  This semester, you will be 
+learning and practicing the skill of programming in Java.  For the last couple of 
+decades, Java has been the first or second most popular programming language 
+(https://fossbytes.com/most-popular-programming-languages/).
 
 Programming is a skill that like all other skills require practice to learn and improve.  
-In CS 210 this Fall 2018, you will be doing programming drills that are due each Friday.
+In CS 210 this Fall 2018, you will be doing programming drills that are due on Fridays.
 These drills provide you an opportunity to learn and practice the basic syntax and semantics
 of Java and how to use Java to solve and test solutions for the kinds of problems
 that will appear in the larger programming assignments.
@@ -27,32 +27,38 @@ Let's start by having you create your own private drill repository on github,
 which you will be using all semester.  No one but you and the CS 210 staff
 can see the code in your private drill repository.
 
- * Each student will create their own drill repository by accepting the
-   drill assignment at [FIXME].  ALL of your drills should be committed
-   and pushed to your drill github repository to enable the CS 210 staff
-   to help you with any questions or issues you are having remotely.
-   (ONE TIME SETUP)
+ * (ONE TIME SETUP)Fill out the google form at ([FIXME]) with your github email address.  
+   This needs to be a .edu email address that is associated with the free github account
+   you are going to use for this course.
+
+ * (ONE TIME SETUP) Each student will create their own drill repository by 
+   accepting the drill assignment at https://classroom.github.com/a/dzc3_cjr.
+   ALL of your drills should be committed and pushed to your drill github repository to 
+   enable the CS 210 staff to help you with any questions or issues you are 
+   having remotely.
    
- * In Eclipse (see [FIXME] to set up Eclipse), import the drill repository.
-   [FIXME: Talk some about the drill organization.]
-   In the src/edu/uacs210fall2018/drill##/ directories, there will be
+ * (ONE TIME SETUP) In Eclipse (see [FIXME] to set up Eclipse), import the drill repository.
+   In Eclipse: File --> Import --> Git,Projects from Git, Next, Clone URI, Provide the
+   link of the github repository that was created for you, and then click Finish.
+   
+### Running a Drill within Eclipse
+
+In the src/edu/uacs210fall2018/drill##/ directories, there will be
 a Drill##.java file (and later other files) that you will be editing.
-   (ONE TIME SETUP)
    
- * Give it a try!  There is a src/edu/uacs210fall2018/drillexample/ 
-   subdirectory with the files DrillExampleTestClass.java and DrillExample.java.
+Give it a try!  There is a src/edu/uacs210fall2018/drill00/ 
+subdirectory with the files Drill00TestClass.java and Drill00.java.
    
      * In the Eclipse Package Explorer, right click on the 
-       DrillExampleTestClass.java and click Run As --> JUnit Test.  
-       One of the tests cases will run and the others will not.
+       Drill00TestClass.java and click Run As --> JUnit Test.  
+       All of the test cases should work with no Failures.
        
-     * Go to Gradescope and submit the DrillExample.java file to
-       the Drill Example Assignment.  Note that the autograder is running
-       the same tests that are in DrillExampleTestClass.java and it
-       will tell you your grade for the example.  The example is not 
-       actually being graded, it is just there to illustrate how drills
-       will be completely autograded in Gradescope.
-       
+     * Go to Gradescope and submit the Drill00.java file to
+       the Drill00 Assignment.  Note that the autograder is running
+       the same tests that are in Drill00TestClass.java and it
+       will tell you your grade for drill00.  Drill00 has already been
+       implemented for you so we can illustrate how drills work.
+LEFTOFF 
      * Back in Eclipse, uncomment the implementations of the drill solutions 
        in the DrillExample.java file.  Try running the JUnit tests again.
        All the tests should now pass.  DO NOT FORGET to do a commit
@@ -60,7 +66,7 @@ a Drill##.java file (and later other files) that you will be editing.
        you have made (see instructions for working with github repositories FIXME).
      
 
-### Doing a Graded Drill
+### Doing Drill01 through Drill09
 
 Doing a drill consists of (1) downloading the files for the drill,
 (2) adding those files to your drill repository, (3) writing code
