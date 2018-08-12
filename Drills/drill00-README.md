@@ -1,10 +1,15 @@
 # Drill00 (posted July 2018, due Friday August 24th at 11:30pm)
 
 In this drill all of the problems have already been solved for you.  See
-README.md for how to get started with Drill00 and how to submit it.
-Here is a description of the problems that we recommend you read as you
-are reading the code in Drill00.java.  The material in these drill
-writeups can be asked about in reading quizzes or in 
+PA-Drill-Section-Writeups/Drills/README.md for how to get started with 
+Drill00 and how to submit it.
+
+The drill##-README.md for any particular drill is a description of the 
+problems that we recommend you read as you are reading the code in Drill##.java,
+which will be in your own drill code repository.  
+The material in these drill writeups can be asked about in reading quizzes and 
+the concepts will be asked about in exams.  The drills are designed to help you learn and 
+practice concepts that will be useful while completing programming assignments.
 
 ## addOne
 
@@ -37,8 +42,8 @@ Return the larger of the two parameters.
 ## sum2
 
 As addOne illustrates, the basic arithmetic operations are almost the
-same as in Python.  See [FIXME] for all of the Java operators and
-their order of evaluation (precedence).
+same as in Python.  See https://introcs.cs.princeton.edu/java/11precedence/ 
+for all of the Java operators and their order of evaluation (precedence).
 
 Description: 
 Calculate the sum of 2 numbers
