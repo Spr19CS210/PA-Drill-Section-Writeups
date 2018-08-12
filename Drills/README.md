@@ -33,7 +33,7 @@ Let's start by having you create your own private drill repository on github,
 which you will be using all semester.  No one but you and the CS 210 staff
 can see the code in your private drill repository.
 
- * (ONE TIME SETUP) Each student will create their own drill repository by 
+ * (ONE TIME SETUP) Each student will create their own drill code repository by 
    accepting the drill assignment at https://classroom.github.com/a/dzc3_cjr.
    The github account you use must have your netid@email.arizona.edu email
    address associated with it for you to accept assignments in github for CS 210.
@@ -44,6 +44,7 @@ can see the code in your private drill repository.
  * (ONE TIME SETUP) In Eclipse, import the drill repository.
    In Eclipse: File --> Import --> Git,Projects from Git, Next, Clone URI, Provide the
    link of the github repository that was created for you, and then click Finish.
+   See the tutorial about this provided on Piazza if you have more questions.
 
 
 ### Running a Drill within Eclipse
