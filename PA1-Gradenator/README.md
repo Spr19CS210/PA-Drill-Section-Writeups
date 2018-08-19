@@ -63,7 +63,7 @@ does not follow the input format can result in undefined behavior.
 
 ## Getting Started
 
-1. Use the assignment URL  <!-- FIX ME --> to set 
+1. Use the assignment URL https://classroom.github.com/a/acyzYMao to set 
 up a github repository.  And then clicked on that repository in your 
 web browser (pa1-gradenator-yourgithubid).
 
