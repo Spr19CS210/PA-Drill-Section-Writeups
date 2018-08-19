@@ -85,8 +85,7 @@ and copy the provided URL.  It should look like
     4. Next, Import existing Eclipse projects, Next, Finish.
 
     5. Test that it runs.  Right click on the `PA1Main.java` file, Run As, 
-       Java Application.  When the program runs, type the following for
-       an input file: PublicTestCases/inputPA1writeup.in
+       Java Application.
 
 4. Edit, commit, and push a small change to the program.
     1. Put the code `System.out.println("Hello");` into the main method.
