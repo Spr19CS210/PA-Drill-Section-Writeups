@@ -1,3 +1,5 @@
+# PA1-Gradenator (Status: posted 8/18/18, due 8/29/18 at 11:30pm)
+
 The goals for PA1 are to get started with Java and figure out how to 
 calculate your current CS 210 grade.
 
@@ -95,6 +97,11 @@ and copy the provided URL.  It should look like
     3. Right click on `PA1Main.java` --> Team --> Commit, move unstaged files
        that you want to commit into staged changes, put in a commit message,
        and then click "commit and push".
+
+5. Submit your program for autograding to Gradescope as many times as you would like.
+   Half of the points for each programming assignment for PA1-PA7 are autograded.
+   Submit to Gradescope by logging into gradescope and then submitting the PA1Main.java
+   file by dragging the file to the submit upload window.
 
 
 ## Testing your program
