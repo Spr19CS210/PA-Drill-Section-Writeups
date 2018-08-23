@@ -64,11 +64,7 @@ that you want to commit into staged changes, put in a commit message, and
 then click commit and push.
 
 ### Step One - Read in the filename
-Similar to PA1 you will be reading in a file from the console. Begin by 
-initializing a Scanner object as demonstrated in the example above, specifying 
-System.in as the input stream. Then use the object to call next(), which will 
-return the file name as a String. You can check that this was done successfully 
-by printing out the file name.
+Similar to PA1 you will be reading in a file from the console. Begin by prompting the user for the file name by looking at PublicTestCases/pa1-inputPA1writeup.out to see the expected output. Now initialize a Scanner object as demonstrated in the example above, specifying System.in as the input stream. Use this to call next(), which will return the file name as a String. You can check that this was done successfully by printing out the file name.
 
 ### Step Two - Open the file and print each line
 Take a moment to open PublicTestCases/inputPA1writeup.in from the Package Explorer 
@@ -98,7 +94,7 @@ public static void main(String[] args) {
     try {
         Scanner input = new Scanner(new File(fileName));
         while (input.hasNextDouble() {
-            double n = input.nextDouble());
+            double n = input.nextDouble();
         }
         input.close();
     } catch (FileNotFoundException ex) {
