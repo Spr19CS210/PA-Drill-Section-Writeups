@@ -97,7 +97,7 @@ public static void main(String[] args) {
   
     try {
         Scanner input = new Scanner(new File(fileName));
-        while (input.hasNextDouble()) {
+        while (input.hasNextDouble() {
             double n = input.nextDouble());
         }
         input.close();
