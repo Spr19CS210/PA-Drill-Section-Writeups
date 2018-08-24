@@ -67,8 +67,7 @@ then click commit and push.
 Similar to PA1 you will be reading in a file from the console. Begin by prompting the user for the file name by looking at PublicTestCases/pa1-inputPA1writeup.out to see the expected output. Now initialize a Scanner object as demonstrated in the example above, specifying System.in as the input stream. Use this to call next(), which will return the file name as a String. You can check that this was done successfully by printing out the file name.
 
 ### Step Two - Open the file and print each line
-Take a moment to open PublicTestCases/inputPA1writeup.in from the Package Explorer 
-in Eclipse. This is the example input from the PA1 specification. Have your program
+Take a moment to open PublicTestCases/inputPA1writeup.in. This is the example input from the PA1 specification. Have your program
 open this file, iterate through the content and print each line. You'll need to 
 initialize a new Scanner object for the file.
 
