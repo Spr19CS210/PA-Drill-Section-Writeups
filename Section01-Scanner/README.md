@@ -30,7 +30,7 @@ In section you can share code.  For programming assignments you cannot.
 
 ## Setup
 Here is the URL for accepting the github classroom assignment
-for Section 1, [FIXME].
+for Section 1, https://classroom.github.com/a/drnTZCg5.
 
 Next, go to your section1 repository on github, and then clone and import 
 the Section 1 gitrepo into Eclipse.
