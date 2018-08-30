@@ -35,8 +35,8 @@ grade would be 20% + 25% ==> 45%.
 The output will be the average grade per line and a total line. Example
 output:
 ```
-  final, 20.0%, 80.0
-  programming assignments, 25.0%, 76.6
+  final; 20.0%; avg=80.0
+  programming assignments; 25.0%; avg=76.6
   TOTAL = 35.1% out of 45.0%
 ```
 Numbers representing discreet values should be stored as `int`s. Numbers representing 
