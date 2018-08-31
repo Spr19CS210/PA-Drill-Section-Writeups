@@ -85,8 +85,10 @@ The process for getting started will be very similar to what was done in PA1.
 
 ## Decomposition Ideas
 
-The section 2 exercise provides an introduction to reading csv files and
-creating a hashmap for departures. Refer to this activity to get started. 
+Class 04 notes have examples of reading from the command line.
+Refer to this activity to get started.
+CSV files for this assignment, you can assume that splitting on commas
+is ok.
 
 Since HashMaps are unordered, special steps must be taken for them to be 
 outputted in an ordered format. As shown below, take the set of keys and 
