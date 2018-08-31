@@ -100,6 +100,25 @@ sort the keys in place.
 	Collections.sort(sortedKeys);
 ```
 
+## Public Test Cases
+
+The .out files in the PublicTestCases/ have the command line arguments
+encoded in their name.  For example, for the file 
+```
+    pa2-example-LOCATIONS-CategoryZ.out
+```
+the command line arguments should be
+```
+example.csv LOCATIONS CategoryZ
+```
+
+Put the command line arguments into Eclipse by doing the following:
+ 1. right click on PA2Main.java,
+ 2. select Run As --> Run Configurations. 
+ 3. Select the arguments tab
+ 4. Put the command line arguments in there and run the program.
+ 
+
 ## Grading Criteria
 
 Half of the PA2 grade will be correctness.  For this assignment, there will be some 
