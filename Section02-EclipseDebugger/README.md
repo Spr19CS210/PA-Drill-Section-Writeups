@@ -26,7 +26,7 @@ import java.util.List;
 /*
  * Author: Dr. Strout 
  * 
- * This code should look familiar as it is problem 9 from the midterm. 
+ * Prints out an arrangement of the given dice that adds up to the desired sum.
  */
 public class Section02Main {
 	public static void main(String[] args) {
