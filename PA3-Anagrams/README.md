@@ -20,7 +20,7 @@ phrases "Clint Eastwood" and "old west action" are anagrams.
 In this assignment, you will create a program called `PA3Main.java` that uses a dictionary to find all 
 anagram phrases that match a given word or phrase.  To use the program, command line options will
 be provided to indicate a dictionary file, phrase with no spaces to find anagrams of, and
-a limit on the number of words in the found anagrams (or 0 to indicate no limit.
+a limit on the number of words in the found anagrams (or 0 to indicate no limit).
 
 For the example command line options:
 ```
@@ -190,7 +190,7 @@ Decomposition
   included in the 30 lines.
 
 * Make things as simple as possible.
-  * Nested loops and conditionals are ok if following provided
+  * Nested loops and conditionals are ok if they are following provided
     recursive backtracking code example templates.  Make an effort
     to simplify conditionals as much as possible and explain them
     clearly in comments.
