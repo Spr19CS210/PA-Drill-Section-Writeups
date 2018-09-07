@@ -1,4 +1,4 @@
-# Section02-Eclipse-Debugger-Introduction  (DRAFT: still being edited)
+# Section02-Eclipse-Debugger-Introduction  (status: posted 9/6/18)
 
 ## Introduction 
 The goal of today's section is to learn about Eclipse's built in debugging features.
@@ -62,7 +62,7 @@ public class Section02Main {
 ```
 
 ### Review Process
-You will be stepping through problem 9 from the midterm. This problem is a recursive dice rolling 
+This problem is a recursive dice rolling 
 combination and summation problem. As you step through this problem, you will be answering a series 
 of questions that you will need to show your SL the correct answers to. 
 
