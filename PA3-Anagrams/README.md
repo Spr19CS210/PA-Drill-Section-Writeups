@@ -220,7 +220,7 @@ use this program and what typical inputs would look like.
 
 * Use meaningful variable names.  Loop iterators can
 be simple (`i` for integers, `s` for strings, `n` for numbers, etc.).
-Otherwise you should avoid single letter variable names.
+Otherwise you should avoid single letter variable names. Name Variables in camelCase.
 
 * The clearest code examples will be anonymously shown in class.
 
