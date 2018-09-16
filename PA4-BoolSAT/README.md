@@ -92,7 +92,8 @@ Output:
 We have done some preliminary main-method testing in the Parser class and Lexer class
 in the BoolSat library. You need to help us out by writing JUnit tests for the ASTNode class.
 
-In ``ASTNodeTest.java`` you should, at a minimum, test the following **for each node type** using JUnit:
+In a file ``ASTNodeTest.java`` that you create, you should at a minimum, test the following
+**for each node type** using JUnit:
 
  - Creating nodes with `null` children.
  - Creating nodes with other ASTNodes as children.
