@@ -233,6 +233,10 @@ are encoded in the .out files.
 
 
 ## Getting Started
+
+The github assignment link is at https://classroom.github.com/a/P4DkpSrt.  Go to that
+link to accept the github assignment and get your own private repository for PA4.
+
 ### JUnit Background Information 
 Writing software is hard. Plain and simple, programming is not easy. Over the past 
 70 years there have been many methods developed to make the process of writing code 
