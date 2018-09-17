@@ -12,7 +12,7 @@ longer than the previous programming assignment writeups.
 ## Learning Objectives
 The goal of this assignment is to practice the following ideas:
 
- - Understanding how a large problems is decomposed into classes.
+ - Understanding how a large problem is decomposed into classes.
  - Using JUnit to test the interface to those classes.
  - Traversal over trees and post-order evaluation of expressions.
  - More exhaustive search using recursive backtracking.
@@ -102,7 +102,7 @@ In a file ``ASTNodeTest.java`` that you create, you should at a minimum, test th
 
 ### JUnit Test Cases
 
-Each feature being tested should be in its own test case. A JUnit test cases is a method of 
+Each feature being tested should be in its own test case. A JUnit test case is a method of 
 the form (see all previous Drills for more examples):
 ```
 @Test
@@ -318,7 +318,7 @@ something if you don't know what it is supposed to be doing? If you have questio
 ask on Piazza. Then follow the 4 steps above. Let's do another example using the ASTNode.java class.
 
  0. **READ THE CODE** It looks like the class only has two public instance variables, child1 and child2. 
- It looks like there are only pubic methods for creating nodes, testing if a given node is of a particular 
+ It looks like there are only public methods for creating nodes, testing if a given node is of a particular 
  type, and getting the name of an identifier node's variable. 
  1. **THINK** NAND nodes have two children.
  2. **THINK** If I create a NAND node with the two children set to null, the child1 and child2 instance 
