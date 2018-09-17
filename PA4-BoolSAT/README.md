@@ -409,6 +409,8 @@ will result in points off.
 use this program.  To use the program, one would need to know the
 input file format.
 
+* Each method needs a method header that explains what the method does.
+
 * Use meaningful variable names and camel case.  Loop iterators can
 be simple (i for integers, s for strings, n for numbers, etc.).
 
