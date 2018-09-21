@@ -1,4 +1,4 @@
-# Section03-PeerReview (Status: Posted 9/18/18)
+# Section04-PeerReview (Status: Posted 9/18/18)
 
 ## Introduction 
 The goal of today's section is to learn about peer review in regards to our class
