@@ -35,7 +35,8 @@ edit it so that it is anonymous. You don't want to have your netID or name in it
 
 ### Review Process
 You will be responding to the statements below in regards to two other
-students' code. You will be ranking your agreement of how well the statements 
+students' code. Download the files from Aropa to review. Do not review the example code!
+You will be ranking your agreement of how well the statements 
 relate to the student's code on a scale of Strongly Agree to Strongly Disagree.
 
 In addition to the rankings, you will have a comment block below to add a
