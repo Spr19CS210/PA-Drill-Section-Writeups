@@ -3,7 +3,7 @@
 This drill has you doing 5 tasks that are relevant for PA4.  Go to the 
 https://github.com/UACS210Fall2018/Drills-Public repository online and
 copy the following into your local Drill project.
- * src/bool_expr/*
+ * src/bool_exp/*
  * src/edu/uacs210fall2018/drill04/*
 
 Then implement the following methods in Drill04.java.
@@ -24,7 +24,7 @@ to get a string for a Java enumerated type.
 
 Return the string representation for the given token in
 the given string.  Use the Lexer that we provide for PA4.
-Copy the bool_expr/\* files into your Drills src/ subdirectory.
+Copy the bool_exp/\* files into your Drills src/ subdirectory.
 
 ## sumTree
 
