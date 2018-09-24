@@ -20,18 +20,18 @@ public class DGraph {
      *            Scanner reference for input file
      */
     public DGraph(Scanner in) {
-
+        
         //TODO: Skip over comment lines that can be at the beginning of mtx
         
-    	//TODO: Read the number of rows, columns and non-zeros.
+        //TODO: Read the number of rows, columns and non-zeros.
     	
-    	//FIXME: Initialize the fields num_nodes and edges.
-    	//	num_nodes is the number of nodes expected in the graph.
+        //FIXME: Initialize the fields num_nodes and edges.
+        //num_nodes is the number of nodes expected in the graph.
     	this.num_nodes = 0;
     	edges = null;
     	
         //TODO: Assuming the number of non-zeros reported is correct,
-    	//	loop over the entry lines and add the directed edge.
+        //	loop over the entry lines and add the directed edge.
 
     }
 
