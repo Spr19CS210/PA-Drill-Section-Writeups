@@ -1,4 +1,4 @@
-# PA5-GraphAlgPerf
+# PA5-GraphAlgPerf (Posted: Sept 24, 6pm)
 
 PA5 is about applying three different approaches to solving a well-known
 and generally useful graph problem, the Traveling Salesperson Problem (TSP).
