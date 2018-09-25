@@ -2,12 +2,13 @@
 
 ## Introduction 
 Today we will be reading and processing a matrix market file (.mtx)
-in order to output a graph to a dot file and print the string to
+to output a graph to a dot file and print the string to
 standard out. This will be helpful for starting PA5.
 
 ## Setup
 
-Accept the Github classroom assignment for Section 4.
+Accept the Github classroom assignment for Section 4
+[FIXME: put that here].
 
 Then do the following:
 
