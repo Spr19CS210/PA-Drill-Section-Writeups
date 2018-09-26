@@ -78,10 +78,10 @@ file might help debugging.
 ### Recursive Backtracking
 
 Will make the decisions starting with node 1 and continuing through the
-nodes in order.  Everytime a node coloring choice is tried, that choice
+nodes in order.  Everytime a node is chosen, that choice
 will be checked before recursing to do some pruning.  We cannot stop
-at the first coloring we find, because it is possible that other colorings
-will use fewer colors.
+at the first node we find, because it is possible that other nodes
+will cost less.
 
 ```
   create a trip
