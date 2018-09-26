@@ -65,7 +65,7 @@ Example output to standard out is provided in the PublicTestCases/
 for HEURISTIC and BACKTRACK.  Here is the output for the above input
 file and the HEURISTIC command:
 ```
-cost = 935.3, visitOrder = [1, 2, 4, 5, 3]
+cost = 8.0, visitOrder = [1, 2, 3]
 ```
 You will be running your own algorithm with the MINE command.  
 The output for TIME is shown below.
