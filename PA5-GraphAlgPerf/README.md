@@ -181,8 +181,8 @@ Go to that link to accept the github assignment and get your own private reposit
   its usage instructions.
 
 * In Section 4 this week and in the initial code, we provide a graph data 
-  structure called DGraph.  Read it usage instructions for how to use
-  handy methods like that returns the neighbors for a node.
+  structure called DGraph.  Read its usage instructions for how to use
+  handy methods such as the one that returns the neighbors for a node.
   
 * In Section 4 this week, we will help you write the code to read in .mtx
   files and output a dot file.
