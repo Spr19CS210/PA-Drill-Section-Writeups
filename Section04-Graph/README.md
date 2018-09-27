@@ -47,11 +47,8 @@ cities? i.e. the trip contains all the nodes in a graph.
 3. How is each city represented in Trip?
 
 4. Francine is a world class traveler and she wants to visit three cities
-in three days with a possible fourth city:
-	1 New York, USA
-	2 Paris, France
-	3 Tokyo, Japan
-	4 Madrid, Spain
+in three days with a possible fourth city: 1 New York, USA; 2 Paris, France;
+3 Tokyo, Japan; 4 Madrid, Spain.
 
 Francine is booking this trip with your startup. Create a new java file
 called FrancinesTrip.java and play around with it to make this trip possible.
