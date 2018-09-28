@@ -1,4 +1,4 @@
-# Section04-Graph (Status: Draft 9/24/18) 
+# Section04-Graph (Status: Posted 9/27/18) 
 
 ## Introduction 
 Today we will be reading and processing a matrix market file (.mtx)
