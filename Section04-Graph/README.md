@@ -8,7 +8,7 @@ standard out. This will be helpful for starting PA5.
 ## Setup
 
 Accept the Github classroom assignment for Section 4
-[FIXME: put that here].
+[https://classroom.github.com/a/bELgAqrR].
 
 Then do the following:
 
