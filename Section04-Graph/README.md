@@ -31,7 +31,7 @@ You will submit your java code to Gradescope.
 After importing the section, your section leader will walk the class through the 
 decomposition of DGraph and Trip. Before they begin their lecture, take a few
 minutes to look over both files and read the usage instructions to familiarize
-yourself.
+yourself. Try to answer questions #1-#3 from part 3.
 
 ### Part Two - Implementation 
 Complete the TODOs in Section4Main. See https://math.nist.gov/MatrixMarket/formats.html
@@ -50,28 +50,30 @@ cities? i.e. the trip contains all the nodes in a graph.
 in three days with a possible fourth city: 1 New York, USA; 2 Paris, France;
 3 Tokyo, Japan; 4 Madrid, Spain.
 
-Francine is booking this trip with your startup. Create a new java file
+   Francine is booking this trip with your startup. Create a new java file
 called FrancinesTrip.java and play around with it to make this trip possible.
 
-1. Construct a trip with the number of cities Francine wants to visit.
-2. Choose New York as her first city.
-3. Choose Tokyo as her next city.
-4. Choose Madrid as her third city.
-5. Print out the trip so far. It should look like the following
-```
-visitOrder = [1, 3, 4], citiesLeft = [2]
-```
-6. Francine just called and wants to visit Madrid last. Unchoose this city.
-7. Make a list of the cities left to visit and print it out. You should get
-```
-[2, 4]
-```
-8. Choose Paris.
-9. Choose Madrid
-10. Print out the trip. You should get
-```
-visitOrder = [1, 3, 2, 4], citiesLeft = []
-```
+   1. Construct a trip with the number of cities Francine wants to visit.
+   2. Choose New York as her first city.
+   3. Choose Tokyo as her next city.
+   4. Choose Madrid as her third city.
+   5. Print out the trip so far. It should look like the following
+   ```
+   visitOrder = [1, 3, 4], citiesLeft = [2]
+   ```
+   6. Francine just called and wants to visit Madrid last. Unchoose this city.
+   7. Make a list of the cities left to visit and print it out. You should get
+   ```
+   [2, 4]
+   ```
+   8. Choose Paris.
+   9. Choose Madrid
+   10. Print out the trip. You should get
+   ```
+   visitOrder = [1, 3, 2, 4], citiesLeft = []
+   ```
+   Try playing around with Trip.java more and construct a DGraph to test the
+   tripCost method.
 
 5. Using the recursive backtracking algorithm provided in the writeup for PA5,
 walk through the algorithm using the example input file and paper. Draw the
