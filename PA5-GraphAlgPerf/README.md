@@ -210,8 +210,7 @@ Decomposition
   timing code.
   
 * Should carefully select data structures that implement the required 
-  functionality. For example, if you avoid using Maps, it will probably 
-  result in more complicated code and thus points off.
+  functionality.
 
 * All of the Java files should be <250 lines of code.
 
