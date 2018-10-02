@@ -265,7 +265,7 @@ the following requirements:
 ## Submission
 
 Files that need to be submitted to Gradescope:
-  * all .java files
+  * The PA5Main.java file
   * README.md with the results of timing experiments that compare your
     improved algorithm to the required algorithms for the input file big11.mtx
     and describes why the algorithms have relative performance differences
