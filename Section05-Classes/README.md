@@ -7,7 +7,7 @@ and submit a StarScreen.java file to Gradescope.
 
 ## Setup
 
-Accept the Github classroom assignment for Section 5. [FIXME]
+Accept the Github classroom assignment for Section 5. [https://classroom.github.com/a/G-oMEJ5F]
 
 Then do the following:
 
