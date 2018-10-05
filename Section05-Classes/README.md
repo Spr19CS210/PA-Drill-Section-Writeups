@@ -1,4 +1,4 @@
-# Section05-Classes (Status: Draft 10/3/18) 
+# Section05-Classes (Status: Posted 10/4/18) 
 
 ## Introduction 
 Today we will practice drawing class hierarchy diagrams and writing a
@@ -29,7 +29,7 @@ Overview: You will practice drawing the class hierarchy diagram on paper
 and write a StarScreen class for the driver in order to prepare you for PA6.
 
 ### Part One - Hierarchy diagram
-Draw the class hierarchy diagram for the following code.
+Draw the class hierarchy diagram including the fields and methods for the following code.
 
 ```
 public interface Microwaveable {
@@ -84,7 +84,8 @@ characters that will print the representation of the animal objects
 and their locations. This will give you a visual of where the animals
 are on the screen. To prepare for this, create a similar class
 called StarScreen. This will be a grid of stars represented by the
-character *. The provided file, StarScreenDriver.java will use your class
+character *. Empty indices will be represented with a period.
+The provided file, StarScreenDriver.java will use your class
 and make StarScreen objects to print the stars on the screen.
 
 Take a look at the driver and try to deduce which methods need to be
@@ -94,32 +95,37 @@ implemented inside of StarScreen.  Answer the following questions:
 2. What field(s) does StarScreen need?
 3. What argument(s) does the constructor have?
 4. What are StarScreen's methods and what should they do? 
+5. What should the grid be initialized with?
+
+You'll notice that in the driver, there is no call to initialize
+the grid with periods. Why do you think that is? What access specifier
+is used for this method and where is it called?
 
 When you are ready, make a new java file called StarScreen.java.
 Implement the methods for the driver to run successfully to produce
 the output below.
 
 ```
-[*][ ][ ]
-[ ][ ][ ]
+*..
+...
 
-[ ][ ][ ][ ][ ]
-[ ][ ][ ][*][ ]
-[ ][ ][ ][ ][ ]
-[ ][ ][ ][ ][ ]
+.....
+...*.
+.....
+.....
 
-[ ][ ][ ][ ][ ][ ][ ][ ][ ][*]
+.........*
 
-[*][*]
-[*][*]
+**
+**
 
-[*][*][*][*][*][*][*]
-[*][ ][ ][ ][ ][ ][*]
-[*][ ][ ][ ][ ][ ][*]
-[*][ ][ ][ ][ ][ ][*]
-[*][*][*][*][*][*][*]
+*******
+*.....*
+*.....*
+*.....*
+*******
 
-[*][*][*]
-[*][*][*]
-[*][*][*]
+***
+***
+***
 ```
