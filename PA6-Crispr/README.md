@@ -54,7 +54,7 @@ cols: 5
 
 CREATE (1,1) lion female right
 PRINT
-MOVE 1
+MOVE
 print
 ```
 
