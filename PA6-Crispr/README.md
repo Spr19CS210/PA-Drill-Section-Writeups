@@ -112,7 +112,7 @@ and columns go across the screen.  Animal specific information:
  * Mammals need a direction (left or right), 
  * Birds need a number, 
  * Insects need true or false,
- * Mosquitos three true or false values 
+ * Mosquitos need three true or false values 
 
 ### The PRINT Command
 ```
