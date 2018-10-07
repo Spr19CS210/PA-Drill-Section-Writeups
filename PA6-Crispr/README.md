@@ -28,6 +28,9 @@ they will either eat or reproduce. Animals with a Crispr gene will stop being ab
 described later on in this specification. Animals must have enough to eat in order to stay alive. Animals are 
 divided up into three different categories: mammals, birds, and insects, all of which have unique characteristics.
 
+## Getting Started
+
+The github assignment link is https://classroom.github.com/a/H8ZlVpNI.
 
 ## The Assignment
 
