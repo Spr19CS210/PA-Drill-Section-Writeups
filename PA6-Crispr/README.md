@@ -134,8 +134,8 @@ should be moved in the order they got there. Animals that are no longer alive sh
   * If a mammal is created with the right option it alternates between moving right and down. Otherwise, 
     it alternates between moving left and then up. Mammals die of old age after 100 moves, if they haven't 
     eaten in 10 moves and when eaten.
-  * A bird moves the number of steps originally passed in on its creation up then, the number right then, 
-    the number down and then repeats. Birds die of old age after 50 moves and if they haven't eaten in 10 moves.
+  * A bird moves the number of steps originally passed in on its creation down then, the number right then, 
+    the number up and then repeats. Birds die of old age after 50 moves and if they haven't eaten in 10 moves.
   * Insects make either clockwise (if passed in true when created) or counterclockwise squares, walking the same 
     number of steps in each direction until a complete square is made. The initial square should have one step on 
     each side. The number of steps should increase by one each time a square is completed. Insects die of old age 
