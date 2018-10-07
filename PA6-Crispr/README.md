@@ -1,4 +1,4 @@
-# PA6-Crispr (Initial Posting: Oct 4, 2018, starter code and autograding not setup yet )
+# PA6-Crispr (Initial Posting: Oct 4, 2018, October 7 2:30pm github assignment link and gradescope ready)
 
 ## Learning Objectives
 
