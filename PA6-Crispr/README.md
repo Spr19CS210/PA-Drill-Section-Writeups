@@ -128,7 +128,7 @@ printed to standard out. If more than one animal occupies a location, just print
 ```
 EXAMPLE USE: MOVE
 ```
-If the MOVE command is read, then each animal should move once. An animal that moves off the side 
+If the MOVE command is read, then *each animal should move once*. An animal that moves off the side 
 of the grid should appear on the other side. The same thing should happen if an animal moves off 
 the top or bottom. Animals should be moved starting from the upper left corner, continuing right 
 until the end of the first row, then on to the second row left to right, etc. The animals at a square 
