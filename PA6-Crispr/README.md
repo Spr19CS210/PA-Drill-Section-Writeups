@@ -134,8 +134,8 @@ the top or bottom. Animals should be moved starting from the upper left corner, 
 until the end of the first row, then on to the second row left to right, etc. The animals at a square 
 should be moved in the order they got there. Animals that are no longer alive should be removed from the ecosystem.
 
-  * If a mammal is created with the right option it alternates between moving right and down. Otherwise, 
-    it alternates between moving left and then up. Mammals die of old age after 100 moves, if they haven't 
+  * If a mammal is created with the right option it alternates between moving right and down (starting with down). Otherwise, 
+    it alternates between moving left and up (starting with up). Mammals die of old age after 100 moves, if they haven't 
     eaten in 10 moves and when eaten.
   * A bird moves the number of steps originally passed in on its creation down then, the number right then, 
     the number up and then repeats. Birds die of old age after 50 moves and if they haven't eaten in 10 moves.
