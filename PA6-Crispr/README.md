@@ -19,7 +19,7 @@ gene editing. Many, many scientists are currently experimenting with ways to use
 and solve other real world problems. In most cases they use it to stop a problematic species from being able 
 to reproduce. This can have far reaching and sometimes catestrophic affects on the local ecosystem. Therefore, 
 before scientists release any creatures with edited genes out into the real world, they run a tremendous amount 
-of somputer simulations to try to predict how the altered species will effect the eco system. In this project, 
+of computer simulations to try to predict how the altered species will effect the eco system. In this project, 
 you will be creating a simple simulation of an ecosystem with one Crispr edited creature included. 
 
 For this assignment, the ecosystem you will be implementing will consist of a number of columns and rows. 
@@ -224,7 +224,7 @@ We recommend the following:
 * An Ecosystem object with a 2D array or list of animal objects. Note that since multiple animals can be in 
   the same location, you may need another level of lists to store all of the animals at each location.
 * An Animal class hierarchy of some kind. The design for this is what will be submitted for peer review on 
-  Oct 10 at 11:30 am to both Aropa AND Gradescope.
+  Oct 10 at 11:30 pm to both Aropa AND Gradescope.
 * A Screen object with a 2D array of characters that each animal can print its current representation into. The Screen 
   object can then print everything to standard out. 
 
