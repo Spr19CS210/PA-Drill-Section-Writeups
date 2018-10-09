@@ -101,7 +101,7 @@ the animal name. For "Elephant" use 'e', for "Warbler" use 'w', etc.
 
 ## Commands that need to be implemented
 
-See the PublicTestCases/ for more examples. There are examples with CREATE, PRINT, MOVE, EAT, REPRODUCE, and ISALIVE. 
+See the PublicTestCases/ for more examples. There are examples with CREATE, PRINT, MOVE, EAT and REPRODUCE. 
 
 ### The CREATE Command
 ```
