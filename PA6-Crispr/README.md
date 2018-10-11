@@ -189,8 +189,10 @@ For all locations, the first two animals at that location should try to reproduc
   * Insects, except mosquitos (as they are our Crispr editted species) always reproduce. Baby insects should be passed true.
   * Mosquitos carry two genes related to reproduction (the last two boolean parameters given when they are 
     created). If these are both true, the mosquito cannot reproduce.  Baby mosquitos should be passed false and 
-    a boolean value indicating whether it has editted genes from each parent. If the parent has edited genes 
-    the new mosquito should be passed true for that parent.   
+    a boolean value indicating whether it has edited genes from each parent. If the parent has edited genes 
+    the new mosquito should be passed true for that parent.  In other words, the value of the first boolean 
+    (which describes the direction the mosquito moves) is false. The second value comes from the first parent. 
+    The third value comes from the second parent.
 
 ### REPRODUCE (x,y)
 ```
