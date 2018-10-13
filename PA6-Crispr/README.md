@@ -140,7 +140,8 @@ should be moved in the order they got there. Animals that are no longer alive sh
   * A bird moves the number of steps originally passed in on its creation down then, the number right then, 
     the number up and then repeats. Birds die of old age after 50 moves and if they haven't eaten in 10 moves.
   * Insects make either clockwise (if passed in true when created) or counterclockwise squares, walking the same 
-    number of steps in each direction until a complete square is made. The initial square should have one step on 
+    number of steps in each direction until a complete square is made. Both start by walking left. The initial square should
+    have one step on 
     each side. The number of steps should increase by one each time a square is completed. Insects die of old age 
     after 20 moves and when eaten.
     
@@ -185,7 +186,7 @@ Has all animals of the specified type eat. If there are no animals with that typ
 ### REPRODUCE
 For all locations, the first two animals at that location should try to reproduce. In order to reproduce the two animals need to be the same species and opposite genders. If the pair of animals reproduce successfully, create a third animal of that type in that location that is female. 
   * Mammals can each only reproduce 5 times. Baby mammals should be passed `right`.
-  * Birds can only reproduce if they are moving down or right. Baby birds should be passed 5.
+  * Birds can only reproduce if their last step was down or right. Baby birds should be passed 5.
   * Insects, except mosquitos (as they are our Crispr editted species) always reproduce. Baby insects should be passed true.
   * Mosquitos carry two genes related to reproduction (the last two boolean parameters given when they are 
     created). If these are both true, the mosquito cannot reproduce.  Baby mosquitos should be passed false and 
