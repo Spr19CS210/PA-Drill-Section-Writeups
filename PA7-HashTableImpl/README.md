@@ -42,7 +42,7 @@ called MyHashMap.  Here are the key components of this assignment:
 
 ## Getting Started
 
-Here is the github assignment link: [FIXME]
+Here is the github assignment link: [https://classroom.github.com/a/-paUcHnY]
 
 ## JUnit implementation
 
