@@ -162,44 +162,29 @@ MyHashMap, the program should call the printTable() method on MyHashMap.
 The printTable() method should output how many conflicts occur at
 each bucket and list the keys in that bucket.
 
-Here is an example input file: (FIXME)
+Here is an example input file: 
 ```
-airline,airline ID, source airport, source airport id, destination apirport, destination airport id, codeshare, stops, equipment
-3S,11741,PTP,2881,FDF,2878,,0,AT5 320
-3S,11741,PTP,2881,SBH,6460,,0,DHT
-3S,11741,PTP,2881,SDQ,1762,,0,AT5
-3S,11741,PTP,2881,SFG,2879,,0,AT5
-3S,11741,PTP,2881,SXM,2899,,0,AT5
-3S,11741,SBH,6460,PTP,2881,,0,DHT
-3S,11741,SDQ,1762,PTP,2881,,0,AT5
-3S,11741,SDQ,1762,SXM,2899,,0,AT5
-3S,11741,SFG,2879,PTP,2881,,0,AT5
-3S,11741,SLU,2893,FDF,2878,,0,AT5
-3S,11741,SXM,2899,DOM,2877,,0,AT5
-3S,11741,SXM,2899,PTP,2881,,0,AT5
-3S,11741,SXM,2899,SDQ,1762,,0,AT5
-3U,4608,BHY,6351,XIY,3379,,0,321
-3U,4608,CAN,3370,CKG,3393,,0,321 320
-3U,4608,CAN,3370,CTU,3395,,0,321 320 330
-3U,4608,CAN,3370,SPN,2244,,0,330
-3U,4608,CGO,3375,CGQ,4380,,0,321
-3U,4608,CGO,3375,CKG,3393,,0,321
+Company,Title,Category,Location,Responsibilities,Minimum Qualifications,Preferred Qualifications
+Google,TitleA,CategoryX,Tel Aviv,Everything and the rest, BS, MS
+Google,TitleB,CategoryX,Tel Aviv,Everything and the rest, BS, MS
+Google,TitleB,CategoryY,Houston,Everything and the rest, BS, MS
+Google,TitleC,CategoryX,Jonesboro,Everything and the rest, BS, MS 
 ```
 
 Here is the output of the program when given this input file and
 the DEBUG command.
 ```
-Index 0: (1 conflicts), [CAN XIY ]
-Index 1: (1 conflicts), [SPN SBH ]
-Index 2: (0 conflicts), [SDQ ]
-Index 3: (0 conflicts), [CKG ]
-Index 4: (3 conflicts), [DOM SLU SFG PTP ]
-Index 5: (0 conflicts), []
-Index 6: (0 conflicts), [CTU ]
-Index 7: (1 conflicts), [CGO BHY ]
-Index 8: (1 conflicts), [SXM FDF ]
-Index 9: (0 conflicts), [CGQ ]
-Total # of conflicts: 7
+DEBUG output for MyTable
+-------------------------------------
+Index 0: (0 conflicts), []
+Index 1: (0 conflicts), []
+Index 2: (0 conflicts), []
+Index 3: (0 conflicts), []
+Index 4: (0 conflicts), []
+Index 5: (0 conflicts), [CategoryY, ]
+Index 6: (0 conflicts), [CategoryX, ]
+Index 7: (0 conflicts), []
+Total # of conflicts: 0
 ```
 
 
