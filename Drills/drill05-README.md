@@ -3,7 +3,7 @@
 This drill has you doing 5 tasks that are relevant for PA6.  Go to the 
 https://github.com/UACS210Fall2018/Drills-Public repository online and
 copy the following into your local Drill project.
- * src/bool_exp/*
+
  * src/edu/uacs210fall2018/drill05/*
 
 Then implement the following methods in Drill05.java.
