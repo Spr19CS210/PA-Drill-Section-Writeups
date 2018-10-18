@@ -139,6 +139,8 @@ This hash map will use chaining to handle the collisions of elements.
 Your hash map should only have 8 buckets!  Collisions will happen.
 We will be covering this in class.
 
+*PUT the (key,value) pairs at the FRONT of the list in the bucket.*
+
 
 
 ## Error checking
