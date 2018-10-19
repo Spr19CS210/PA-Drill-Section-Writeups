@@ -9,7 +9,7 @@ HashMaps for PA7.
 
 ## Setup
 
-Accept the Github classroom assignment for Section 7. [FIXME]
+Accept the Github classroom assignment for Section 7. [https://classroom.github.com/a/ES2PiyhI]
 
 Then do the following:
 
