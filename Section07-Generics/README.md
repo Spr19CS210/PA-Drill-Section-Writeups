@@ -1,4 +1,4 @@
-# Section07-Generics (Status: Draft 10/17/18)
+# Section07-Generics (Status: Posted 10/18/18)
 
 ## Introduction 
 Now that you have practiced using a list with user defined objects,
@@ -63,9 +63,11 @@ The same set after trying to add duplicates:
 Create a new class named MyBag and make it generic so it can hold any type.
 Remove the two commented lines in Section07.java to run your code.
 Start with the field and the constructor, then move on to the methods
-that need to be overriden for HashSet. Again, you can use the object's
-hash code for simplicity. If you get stuck, you can work with a neighbor,
-review the class notes or reading assignments, or ask your section leader.
+that need to be overriden for HashSet. For generic types, you can't use
+instanceOf(), you'll have to compare the objects by using getClass().
+Again, you can use the object's hash code for simplicity.
+If you get stuck, you can work with a neighbor, review the reading assignments,
+class notes or code examples from Tuesday's lecture, or ask your section leaders.
 
 The console should have this as the final output:
 
