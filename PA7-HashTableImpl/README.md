@@ -44,6 +44,32 @@ called MyHashMap.  Here are the key components of this assignment:
 
 Here is the github assignment link: [https://classroom.github.com/a/-paUcHnY]
 
+Recommended approach for iteratively implementing the below.  At each of these
+steps we recommend you submit to gradescope what you have running even if you are
+not passing all of the test cases yet.
+
+1. Write unit tests for hashmap usage from PA2 including some required test cases.
+   First just use the Java HashMap data structure in the test cases.
+
+2. Implement a NON-generic MyHashMap that has String as the key type and Integer
+   as the value type.
+   * Copy in the given hash function
+   * Consider which data structures to use to implement the hash table
+   * Assume a perfect hash initially (will lose some data when keys conflict)
+   * Implement chaining
+   
+3. Use the NON-generic MyHashMap in your copy of PA2 everywhere possible.
+
+4. As was done in Tuesday 10/16/18 class, change the non-generic MyHashMap
+   into a generic MyHashMap.
+   
+5. Modify your PA2 copy to use the generic MyHashMap and only that.  Take
+   out all HashMap and HashSet usage.
+   
+6. Have this new version of PA2 skip lines that don't have enough fields and 
+   refactor the code to get rid of redundant code.
+
+
 ## JUnit implementation
 
 The PA7Test.java file should contain unit tests for all of the HashMap
@@ -88,7 +114,7 @@ In general, there are multiple ways to implement a hash map. Here are three:
 However, since you are implementing a generic hash table in Java
 and generics are problematic in arrays 
 (https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html),
-we strongly recommend you use an ArrayList of linked lists.  Those linked
+we recommend you use an ArrayList of linked lists.  Those linked
 lists can be LinkedLists, ArrayLists, or your own linked list implementation
 where the key,value pairs link to each other.
 
