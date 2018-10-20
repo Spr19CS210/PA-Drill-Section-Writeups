@@ -180,11 +180,11 @@ Ignore records that do not have 7 fields.
 ## The DEBUG command
 
 The program should be able to accept the DEBUG command on the command line after
-the input file name.  That output should show how all of the airport codes
+the input file name.  That output should show how all of the job categories
 in the input file map into indices in the hash table.
 
 The DEBUG command should cause the creation of a MyHashMap with the
-keys being all of the airport codes in the input file.
+keys being all of the categories in the input file.
 The goal is to see how many hash conflicts occur.  After filing the
 MyHashMap, the program should call the printTable() method on MyHashMap.
 The printTable() method should output how many conflicts occur at
