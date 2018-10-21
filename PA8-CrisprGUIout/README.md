@@ -1,4 +1,4 @@
-# PA8-Crispr-GUI (Status: Posted at )
+# PA8-Crispr-GUI (Status: not technically posted, still needs gradescope setup)
 
 ## Learning Objectives
 
@@ -10,7 +10,7 @@ a GUI output representation of the PA6-Crispr program.
 In class on Thursday 10/18 we talked about ways to consider improving 
 your PA6-Crispr implementation.  In this assignment, you will build on the
 improved PA6-Crispr implemention to visually represent your ecosystem
-simulation.
+simulation.  Note that PA8 is due AFTER Midterm 2 on Wednesday November 7th.
 
 For PA8, you will be graphically representing each animal in 
 the output as well as handling a `delay` command from the input file that 
