@@ -1,4 +1,4 @@
-# PA7-HashMapImpl-Key (Status: Posted Oct 13 3pm)
+# PA7-HashMapImpl-Key (Status: Posted Oct 13 3pm, see update about updating value for same key 10/21)
 
 
 ## Learning Objectives
@@ -166,6 +166,8 @@ Your hash map should only have 8 buckets!  Collisions will happen.
 We will be covering this in class.
 
 *PUT the (key,value) pairs at the FRONT of the list in the bucket.*
+
+*IF the same key is passed in with a different value, do the value update in place.*
 
 
 
