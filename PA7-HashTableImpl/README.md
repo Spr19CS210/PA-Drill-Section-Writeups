@@ -32,7 +32,7 @@ called MyHashMap.  Here are the key components of this assignment:
     * uses MyHashMap instead of the HashMap provided in java.util
 
     * provides a DEBUG command that outputs the printTable() information
-      about conflicts in a table that maps flight codes to integers
+      about conflicts in a table
 
     * has been improved based on PA2 code clarity and decomposition feedback
       and follows the more stringent grading criteria specified below
