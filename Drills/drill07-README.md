@@ -14,20 +14,30 @@ for more info).  To deal with these, download e(fx)clipse.
 
 ## increaseRed
 
-Return a new Color object with the red RGB value set to be .1 higher than the value
-in the given color.
+Write a method that takes a color as a parameter and returns a new color. The new 
+color should have the red value increased by one and all other values the same as the passed in color. 
+
 
 ## swapGreenBlue
 
-Return a new Color object with the green and blue RGB values swapped from the
-given color.
+Write a method that takes a color as a parameter and returns a new color. The new 
+color should have the same red and opacity values as the passed in color but its green 
+and blue values should be swapped.
+
 
 ## setFillColor
 
-Set the fill color on the given Canvas object.
+Write a method that takes a canvas as a parameter and sets the fill color to be 
+used on that canvas (using the GraphicsContext) to be red 255, green 0, blue 0.
 
 ## setStrokeColor
 
-Set the stroke color on the given Canvas object.
+Write a method that takes a canvas as a parameter and sets the stroke color to 
+be used on that canvas (using the GraphicsContext) to 
+be red 0, green 255, blue 0.
 
 ## drawOval
+
+Write a method that takes a canvas as a parameter and draws an outline of an 
+oval on it. The oval outline should have a color of red 0, green 0, blue 255. 
+Its upper left corner should be at (20, 20) and it should be 40 wide and 40 tall. 
