@@ -45,7 +45,7 @@ MOVE
 ```
 
 The number after 'delay:' is a **double** that represents the time to wait 
-before each command executed. In the video example (CSC210-ExepctedOutput.flv),
+before each command executed. In the video example (PublicTestCases/Ecosystem.mov),
 this delay was set to **.5**, therefore, each command was executed after waiting a half second.
 
 ## PA6 Requirement Changes
@@ -81,6 +81,18 @@ The above changes will lead to a more interesting simulation.
     creating your unique animal.
     
  8. Make a video of running `myEcosystem.in` through your program.
+    Please consider creating a video file with https://obsproject.com/.  The quick start instructions 
+    (https://obsproject.com/wiki/OBS-Studio-Quickstart) are pretty helpful.  
+      * Run the PA8Main and leave up the java Ecosystem window.
+      * Go into OBS.
+      * In OBS, click on Settings in lower right corder and output.  Check that output is mp4 or mov.
+      * Click on the add button for a Source.  Select Window Capture, which is at the end of the list.
+      * Then select the java [Ecosystem] window.
+      * Then quit the java [Ecosystem]
+      * Then in quick succession (kludgy part), click on start recording in OBS and then run Ecosystem 
+        in eclipse.  A movie file will be put in whatever directory was specified in Settings.
+        If you can figure out how to start recording right when the app starts running, please post that
+        information on piazza.
 
 
 ## Resources
@@ -190,9 +202,9 @@ to Gradescope before Wednesday November 7th at 11:30pm.
   * myEcosystem.mp4, or other video format that can be run on multiple platforms
   
 To create the video, you can use a program to record your screen as you run 
-your program, or you can simply record your screen with your smartphone or tablet. 
-Do note however that the video you submit must be of good enough quality for 
-the SL's to clearly see your ecosystem and command logs.
+your program (see OBS instructions above), or you can simply record your screen 
+with your smartphone or tablet. Do note however that the video you submit must 
+be of good enough quality for the SL's to clearly see your ecosystem and command logs.
 
 Write your own code. We will be using a tool that finds similar code.
 
