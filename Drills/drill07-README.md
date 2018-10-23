@@ -15,7 +15,7 @@ for more info).  To deal with these, download e(fx)clipse.
 ## increaseRed
 
 Write a method that takes a color as a parameter and returns a new color. The new 
-color should have the red value increased by one and all other values the same as the passed in color. 
+color should have the red value increased by .1 and all other values the same as the passed in color. 
 
 
 ## swapGreenBlue
