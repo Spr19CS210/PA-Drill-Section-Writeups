@@ -1,9 +1,12 @@
-# PA8-Crispr-GUI (Status: not technically posted, still needs gradescope setup)
+# PA8-Crispr-GUI (Status: posted October 30)
 
 ## Learning Objectives
 
 The goal of this assignment is to use basic JavaFX to create
 a GUI output representation of the PA6-Crispr program.
+
+Another important goal is to improve the code clarity and
+decomposition from the PA6 programming assignment.
 
 ## The Assignment
 
@@ -194,6 +197,11 @@ Remember, we will be grading the code that you submitted for PA6 again. Therefor
 that were pointed out in your PA6 grading or receive further deductions.
   
 ## Submission
+
+For the third peer review assignment, you are required to submit your PA8Main.java
+file to Aropa AND to Gradescope for the PR3: PA8 peer review assignment.
+*NOTE: There is a SEPARATE Gradescope assignment for the peer review.  ONLY submit
+PA8Main.java to Aropa*.
 
 For this assignment, you are **REQUIRED** to submit all of the following files
 to Gradescope before Wednesday November 7th at 11:30pm.
