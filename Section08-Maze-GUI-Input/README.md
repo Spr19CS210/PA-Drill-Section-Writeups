@@ -7,19 +7,20 @@ interface. We will be adding a TextField and Button to the GUI
 so we can control the movement through the maze using the simple
  commands 'RIGHT', 'LEFT', 'UP' and 'DOWN'.
 
-You will need the E19MazeOutput.java file from last Thursday's 
-class to complete this section. You can find it in the code
- examples repository. All of the code to implement your GUI will
-  be added here.
 
 ## Assignment
 
 ### Setup
-Download last Thursday's code from class, E19MazeOutput.java,
-along with PublicTestCases/maze_01.txt and PublicTestCases/maze_02.txt.
-You can find them in the code examples repository. Rename the java file
-to MazeGUIInput by right clicking the file and selecting
-Refactor > Rename.
+You will need the E19MazeOutput.java file from last Thursday's (10/25/18) 
+class to complete this section. You can find it in the public code
+examples repository (https://github.com/UACS210Fall2018/Code-Examples-Public).
+All of the code to implement your GUI will be added to your copy of this example.
+
+You will also want to copy over PublicTestCases/maze_01.txt and 
+PublicTestCases/maze_02.txt. 
+
+You can rename the java file to MazeGUIInput by right clicking the file and 
+selecting Refactor > Rename.
 
 ### Part One - Setup Additional Objects 
 You will need to add several class variables. Two ```int```s will
@@ -29,20 +30,20 @@ represent the number of squares the triangle moves. I suggest
 you name the coordinates x, y and the constant MOVE to match 
 later code that is given to you.
 
-Next, declare the following for your GUI input. Be sure to import
-the ```javafx.scene.control```
-package. Additionally, you will have to change the 2D char array,
-```maze``` from start() to be a class variable. Do the same for
-```GraphicsContext gc``` since it is included below. 
-
+Next, declare the following for your GUI input.
 ```
     // GUI objects
     Button nextMove;
     TextField command;
     GraphicsContext gc;
 ```
+Be sure to import the ```javafx.scene.control```
+package. Additionally, you will have to change the 2D char array,
+```maze``` from a local variable in start() to be a class variable. 
+Do the same for ```GraphicsContext gc```. 
 
-### Part Two - Updating readMaze and start
+
+### Part Two - Updating readMaze() and start()
 Add code to readMaze() to initialize the x and y coordinates to 
 the start location of the triangle, indicated by 'S' from the
 input file, PublicTestCases/maze_02.txt. You can add a
@@ -73,7 +74,7 @@ Again, import the appropriate packages.
         p.setBottom(vb);
 ```
 
-You will notice the methods setupNodes and setupEventHandlers()
+You will notice the methods setupNodes() and setupEventHandlers()
 are not implemented yet. Copy over the code below to implement
 setupNodes(), which will add the TextField, Label, and Button.
 
