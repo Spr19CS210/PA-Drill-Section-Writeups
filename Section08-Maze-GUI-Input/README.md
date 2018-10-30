@@ -15,8 +15,9 @@ class to complete this section. You can find it in the code
 ## Assignment
 
 ### Setup
-Download last Thursday's code from class, E19MazeOutput.java.
-You can find it in the code examples repository. Rename the file
+Download last Thursday's code from class, E19MazeOutput.java,
+along with PublicTestCases/maze_01.txt and PublicTestCases/maze_02.txt.
+You can find them in the code examples repository. Rename the java file
 to MazeGUIInput by right clicking the file and selecting
 Refactor > Rename.
 
