@@ -1,4 +1,4 @@
-# Section8-Maze-GUI-Input (Draft: 10/29/18)
+# Section8-Maze-GUI-Input (Posted: 11/1/18)
 
 ## Introduction
 
