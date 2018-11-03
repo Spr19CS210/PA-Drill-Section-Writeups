@@ -123,7 +123,7 @@ general requirements must be met:
   image for each animal instead of a colored tile.
 
 * There must be a command log which displays commands as they are being executed. 
-  In the example video, this is done in a `TextArea` at the bottom of the garden.
+  In the example video, this is done in a `TextArea` at the bottom of the Ecosystem.
   
 * Animals must visually move around the ecosystem.
 
