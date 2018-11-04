@@ -34,7 +34,6 @@ Next, declare the following for your GUI input.
 ```
     // GUI objects
     Button nextMove;
-    TextField command;
     GraphicsContext gc;
 ```
 Be sure to import the ```javafx.scene.control```
@@ -55,26 +54,26 @@ Again, import the appropriate packages.
 
 ```
         // Text field to take in maze command
-        command = new TextField();
+        TextField command = new TextField();
 
         // Border pane will contain canvas for drawing and text area underneath
         BorderPane p = new BorderPane();
 
         // Input Area + nextMove Button
-        Label cmd = new Label("Type Command in TextField");
+        Label cmdLabel = new Label("Type Command in TextField");
         HBox hb = new HBox(3);
 
         // Input + Text Output
         VBox vb = new VBox(2);
 
-        setupNodes(hb, cmd, vb);
-        setupEventHandlers();
+        setupNodes(hb, cmdLabel, vb);
+        nextMove.setOnAction(new CommandHandler(command));
 
         p.setCenter(canvas);
         p.setBottom(vb);
 ```
 
-You will notice the methods setupNodes() and setupEventHandlers()
+You will notice the methods setupNodes() and the class CommandHandler
 are not implemented yet. Copy over the code below to implement
 setupNodes(), which will add the TextField, Label, and Button.
 
@@ -83,7 +82,7 @@ setupNodes(), which will add the TextField, Label, and Button.
      * Sets up the TextField, label, and button to be
      * at the bottom
      */
-    private void setupNodes(HBox hb, Label cmd, VBox vb) {
+    private void setupNodes(HBox hb, Label cmd, VBox vb, TextField inputCmd) {
 
         nextMove = new Button("Simulation Step");
 
@@ -92,7 +91,7 @@ setupNodes(), which will add the TextField, Label, and Button.
         hb.getChildren().add(nextMove);
 
         vb.getChildren().add(hb);
-        vb.getChildren().add(command);
+        vb.getChildren().add(inputCmd);
     }
 ```
 
@@ -113,26 +112,32 @@ control the movement through the maze using the simple commands
 'RIGHT', 'LEFT', 'UP' and 'DOWN'. However, typing the these 
 commands into the TextField and clicking the button will have no
 effect unless we implement a EventHandler. For this section, a 
-button EventHandler will be used. Any time the button is clicked 
-it will read in the text in TextField and process it if it is a 
-valid command. The button EventHandler is a class method. 
+button EventHandler will be used from inside an inner class. Any time 
+the button is clicked it will read in the text in TextField and
+process it if it is a  valid command. The button EventHandler is a
+class method. 
 
-Copy the code below into your code to implement the Button
-EventHandler. Import the appropriate package to take an ActionEvent.
+Copy the code below as an inner class. Import the appropriate package
+to take an ActionEvent.
 
 ```
-    /*
-     * Button EventHandler to take input command
-     * when button is clicked.
-     */
-    private void setupEventHandlers() {
-        nextMove.setOnAction(new EventHandler<ActionEvent>() {
+    class CommandHandler implements EventHandler<ActionEvent> {
+    	private TextField command;
 
-            @Override
-            public void handle(ActionEvent event) {
-                parseLine(command.getText());
-            }
-        });
+    	CommandHandler(TextField command) {
+    		this.command = command;
+    	}
+
+    	/*
+    	 * Button EventHandler to take input command
+    	 * when button is clicked.
+    	 */
+    	@Override
+    	public void handle(ActionEvent event) {
+    		parseLine(command.getText());
+
+    	}
+
     }
 ```
 
