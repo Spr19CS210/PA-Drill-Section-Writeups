@@ -66,7 +66,7 @@ Again, import the appropriate packages.
         // Input + Text Output
         VBox vb = new VBox(2);
 
-        setupNodes(hb, cmdLabel, vb);
+        setupNodes(hb, cmdLabel, vb, command);
         nextMove.setOnAction(new CommandHandler(command));
 
         p.setCenter(canvas);
