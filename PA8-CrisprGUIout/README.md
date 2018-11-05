@@ -88,7 +88,7 @@ The above changes will lead to a more interesting simulation.
     (https://obsproject.com/wiki/OBS-Studio-Quickstart) are pretty helpful.  
       * Run the PA8Main and leave up the java Ecosystem window.
       * Go into OBS.
-      * In OBS, click on Settings in lower right corder and output.  Check that output is mp4 or mov.
+      * In OBS, click on Settings in lower right corner and output.  Check that output is mp4 or mov.
       * Click on the add button for a Source.  Select Window Capture, which is at the end of the list.
       * Then select the java [Ecosystem] window.
       * Then quit the java [Ecosystem]
