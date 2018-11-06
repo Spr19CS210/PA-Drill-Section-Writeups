@@ -103,7 +103,7 @@ The above changes will lead to a more interesting simulation.
 The provided code uses some new concepts.  We will be covering them in class.
 Additionally, here are some references.
 
-  * drawing to a canvas, https://docs.oracle.com/javafx/2/canvas/jfxpub-canvas.html
+  * drawing to a canvas, https://docs.oracle.com/javafx/2/canvas/jfxpub-canvas.htm
   * lambda functions,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html
   * colors to pick from, https://docs.oracle.com/javase/8/javafx/api/javafx/scene/paint/Color.html
 
