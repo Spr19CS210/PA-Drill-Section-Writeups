@@ -144,7 +144,9 @@ The other half of the PA8 grade will be your decomposition and code clarity.
 * Should carefully select data structures that implement the required 
   functionality.
 
-* Your program should contain 10 or less java files. All of the Java files should be <350 lines of code.
+* Your program should contain 10 or less java files. All of the Java files should be <350 lines 
+  of code.  We won't be including the usage instructions in the file header.
+  
 
 * Each method should be less than 30 lines.  This INCLUDES
   comments, but not the method header.  It is easier to read a 
