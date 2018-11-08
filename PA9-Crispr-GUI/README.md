@@ -16,7 +16,7 @@ you will create a TextField where a user can input an ecosystem simulation comma
 button to show the results of that command.
 
 Another interesting aspect of PA9 is that you will be continuing to refine
-the ecossystem simulation code.  Some of your code will change and some of the
+the ecosystem simulation code.  Some of your code will change and some of the
 code from PA8 and PA6 should be removed in PA9.
 
 
