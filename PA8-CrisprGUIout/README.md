@@ -92,6 +92,7 @@ The above changes will lead to a more interesting simulation.
       * Click on the add button for a Source.  Select Window Capture, which is at the end of the list.
       * Select Create New.
       * Then select the java [Ecosystem] window in the drop down list that starts out looking blank.
+      * At some point you may need to Add Existing Source to get the window to show up in OBS.
       * Then quit the java [Ecosystem]
       * Then in quick succession (kludgy part), click on start recording in OBS and then run Ecosystem 
         in eclipse.  A movie file will be put in whatever directory was specified in Settings.
