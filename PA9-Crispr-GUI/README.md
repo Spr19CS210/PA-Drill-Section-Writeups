@@ -78,7 +78,7 @@ This assignment is different from other assignments you've had so far
 in that you are given a lot more freedom to design your output the way 
 you want. You can try to mimic what was done in the video and get the 
 credit for it, but however you choose to receive graphical input for your
-garden, the following general requirements must be met:
+ecosystem, the following general requirements must be met:
 
 * A user should be able to type in a command or select options and submit it via the GUI. This means that there
   should be somewhere to insert text and some way to submit that text. Both of these must be
@@ -96,7 +96,7 @@ garden, the following general requirements must be met:
   animal moved by 1.
 
 * As in PA8, there must be a command log that displays commands as they are being executed. 
-  In the example video, this is done in a TextArea at the bottom of the garden.
+  In the example video, this is done in a TextArea at the bottom of the ecosystem.
   
 
 
