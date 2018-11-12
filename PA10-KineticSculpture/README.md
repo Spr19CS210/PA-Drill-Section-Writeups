@@ -205,7 +205,37 @@ Code Clarity
 * Use meaningful variable names.  Loop iterators can
   be simple (i for integers, s for strings, n for numbers, etc.).
 
-FIXME
+Code Clarity
+* YOU should be able to read, understand, and explain your own code
+  to someone else a couple days after you wrote it.
+  * No magic numbers
+  * No methods written to just get the test cases to work
+
+* There needs to be a balance between no comments in the body of the
+  methods and a comment for every line in the program.  Either extreme
+  will result in points off.
+
+* The file header should include instructions on how someone would
+  use this program.  To use the program, one would need to know the
+  input file format.
+
+* Use meaningful variable names.  Loop iterators can
+  be simple (i for integers, s for strings, n for numbers, etc.).
+
+ * We will be modeling some of the issues we are seeing with code.
+
+ * We will ask permission to show clear code examples.
+
+
+The coding style in terms of spacing, etc. should be done automatically every time you 
+save in Eclipse. As long as you stick with those defaults, the syntax style should 
+be fine. At workplaces the style requirements can be extensive. In this class, we have 
+the following requirements:
+ 1. No lines should be longer than 80 characters line.
+ 2. Do not mix tabs and spaces. Use spaces consistently.
+ 3. The left curly brace should start on the same line as the loop or conditional.
+
+
   
 ## Submission
 
