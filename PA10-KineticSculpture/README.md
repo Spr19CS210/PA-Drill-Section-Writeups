@@ -124,7 +124,7 @@ $ wc *.java
 ```
     This means that the whole program is 432 lines of code.
     
- 1. Accept the github assignment for PA10, [FIXME].
+ 1. Accept the github assignment for PA10, [https://classroom.github.com/a/mmRjzF0o].
     Import your PA10 github repository into Eclipse as usual.
  
  2. Run the PA10hardcoded.java and see what it does.
