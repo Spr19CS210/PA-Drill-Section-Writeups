@@ -1,4 +1,4 @@
-# PA10-KineticSculpture (Status: Draft, not officially posted yet)
+# PA10-KineticSculpture (Status: posted November 12th 10pm)
 
 Writeup for the Kinetic sculpture assignment.
 
