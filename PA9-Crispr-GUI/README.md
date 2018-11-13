@@ -12,7 +12,7 @@ there will be no input file to read from. Instead of reading the input file
 from the command line arguments, you will read in the number of rows and columns
 of the ecosystem from the command line.  Then along with the ecosystem visualization
 you will create a TextField where a user can input an ecosystem simulation command
-(e.g., move, reprodice (2,3) eat, ...) and then click on a simulate
+(e.g., move, reproduce (2,3) eat, ...) and then click on a simulate
 button to show the results of that command.
 
 Another interesting aspect of PA9 is that you will be continuing to refine
