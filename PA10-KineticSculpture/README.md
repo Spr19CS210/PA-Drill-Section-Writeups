@@ -36,7 +36,9 @@ This is a two-week assignment.
   
 * The whole assignment will need to be completed by the end of the second
   week with a demo video, Java source code, and an in-person demonstration
-  of the GUI with your section leader during section the last week of class.
+  of the GUI with your section leader during section either Friday Nov 30th
+  or Monday December 3rd.  You should be demoing the code you submitted on Wednesday
+  November 28th.
 
 
 For the assignment, you will need to do the following:
@@ -137,8 +139,8 @@ $ wc *.java
  
  5. Make a video of running sculpture.in through your program.
  
- 6. Demonstrate your program in your section on Monday April 30th
-    or Tuesday May 1st.
+ 6. Demonstrate your program in your section on Friday Nov 30th
+  or Monday December 3rd.
 
 ## Suggestions
 
@@ -240,19 +242,20 @@ the following requirements:
 ## Submission
 
 For this assignment, you are **REQUIRED** to submit all of the following files:
-  * by [FIXME] to Gradescope AND Aropa
+  * by Wednesday November 21st 11:30pm to Gradescope AND Aropa
     * a class hierarchy diagram with all the classes, their interfaces, and
       any inheritance relationships
   
-  * to Gradescope before [FIXME]. 
+  * to Gradescope before Wednesday November 28th 11:30pm. 
     * All the Java source files needed to run your program.  Do NOT include
       PA10hardCodedDemo.java.
-    * sculpture.in, start with the provided one, but feel free to ADD to it
-    * sculpture.mp4, or other video format that can be run on multiple platforms.
+    * mySculpture.in, start with the provided one, but feel free to ADD to it to
+      show off for extra credit
+    * mySculpture.mov, or other video format that can be run on multiple platforms.
       The video should be between 10 and 15 seconds long.
   
 To create the video, you can use a program to record your screen as you run 
-your program, or you can simply record your screen with your smartphone or tablet. 
+your program (see PA8 writeup), or you can simply record your screen with your smartphone or tablet. 
 Do note however that the video you submit must be of good enough quality for 
 the SL's to clearly see you enter the input filename and see your sculpture execute.
 
