@@ -27,18 +27,21 @@ forward to seeing your creativity!
 
 ## The Assignment
 
-This is a two-week assignment.
-* For the first week, you will need
-  to submit a class hierarchy diagram with ALL the classes you PLAN to have
-  and their fields and interface to Aropa and to Gradescope for peer review.
-  You can change the plan after peer reviews, BUT your initial plan needs
+This is a two-week assignment.  However, the end of the first week
+is the Wednesday before Thanksgiving, so you won't have to submit
+anything that Wednesday.  Schedule around the Thanksgiving holiday.
+* For the first week, put together a class hierarchy diagram with ALL the 
+  classes you PLAN to have and their fields and interface. 
+  You can change the plan later, BUT your plan needs
   to have enough in there to do the minimum requirements of the assignment.
+  You won't have to submit the diagram until the 28th, but we strongly recommend
+  you make significant progress on this assignment before Thanksgiving.
   
 * The whole assignment will need to be completed by the end of the second
   week with a demo video, Java source code, and an in-person demonstration
   of the GUI with your section leader during section either Friday Nov 30th
-  or Monday December 3rd.  You should be demoing the code you submitted on Wednesday
-  November 28th.
+  or Monday December 3rd.  In section, you should be demoing the code you 
+  submitted on Wednesday November 28th.
 
 
 For the assignment, you will need to do the following:
@@ -242,7 +245,7 @@ the following requirements:
 ## Submission
 
 For this assignment, you are **REQUIRED** to submit all of the following files:
-  * by Wednesday November 21st 11:30pm to Gradescope AND Aropa
+  * by Wednesday November 28th 11:30pm to Gradescope AND Aropa
     * a class hierarchy diagram with all the classes, their interfaces, and
       any inheritance relationships
   
