@@ -192,23 +192,6 @@ Decomposition
   comments, but not the method header.  It is easier to read a 
   function if it can all fit on one screen.
   
-Code Clarity
-* YOU should be able to read, understand, and explain your own code
-  to someone else a couple days after you wrote it.
-  * No magic numbers
-  * No methods written to just get the test cases to work
-
-* There needs to be a balance between no comments in the body of the
-  methods and a comment for every line in the program.  Either extreme
-  will result in points off.
-
-* **The file header should include instructions on how someone would
-  use this program.**  To use the program, one would need to know the
-  input file format.  One would also need to know the command line arguments
-  that should be passed to the program.
-
-* Use meaningful variable names.  Loop iterators can
-  be simple (i for integers, s for strings, n for numbers, etc.).
 
 Code Clarity
 * YOU should be able to read, understand, and explain your own code
