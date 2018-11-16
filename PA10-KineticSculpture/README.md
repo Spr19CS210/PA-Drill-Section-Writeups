@@ -53,7 +53,7 @@ For the assignment, you will need to do the following:
    You can assume the input is correctly formed.
    Here is the input file for the hardcoded example in the PA10
    starter code.
-      ```
+```
 delay: 1
 input: RED, BLUE
 0: input, (12,12)
@@ -64,7 +64,7 @@ input: RED, BLUE
 0 -> 2
 1 -> 3
 2 -> 3
-      ```
+```
     Any number of colors can be specified in a list after the "input:" label.
     There will only be one delay specified.  Any number of
     sculpture nodes and edges between nodes may be specified.
