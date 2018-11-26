@@ -228,7 +228,7 @@ the following requirements:
 ## Submission
 
 For this assignment, you are **REQUIRED** to submit all of the following files:
-  * by Wednesday November 28th 11:30pm to Gradescope AND Aropa
+  * by Wednesday November 28th 11:30pm to Gradescope (PR4 assignment) AND Aropa
     * a class hierarchy diagram with all the classes, their interfaces, and
       any inheritance relationships
     * one anonymized file of code.  The file of code should be the one you are 
