@@ -1,4 +1,4 @@
-# PA10-KineticSculpture (Status: posted November 12th 10pm)
+# PA10-KineticSculpture (Status: posted November 12th 10pm, Update Nov 26th)
 
 Writeup for the Kinetic sculpture assignment.
 
@@ -231,6 +231,8 @@ For this assignment, you are **REQUIRED** to submit all of the following files:
   * by Wednesday November 28th 11:30pm to Gradescope AND Aropa
     * a class hierarchy diagram with all the classes, their interfaces, and
       any inheritance relationships
+    * one anonymized file of code.  The file of code should be the one you are 
+      most proud of in terms of decomposition and code clarity.
   
   * to Gradescope before Wednesday November 28th 11:30pm. 
     * All the Java source files needed to run your program.  Do NOT include
