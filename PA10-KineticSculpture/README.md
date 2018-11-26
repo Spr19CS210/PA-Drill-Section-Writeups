@@ -66,6 +66,7 @@ input: RED, BLUE
 2 -> 3
 ```
     Any number of colors can be specified in a list after the "input:" label.
+    You need to at least handle the following colors: RED, BLUE, YELLOW, GREEN.
     There will only be one delay specified.  Any number of
     sculpture nodes and edges between nodes may be specified.
     Sculpture nodes do not need to be connected to any other nodes.
