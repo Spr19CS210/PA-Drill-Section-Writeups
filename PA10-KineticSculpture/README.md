@@ -241,7 +241,7 @@ For this assignment, you are **REQUIRED** to submit all of the following files:
     * mySculpture.in, start with the provided one, but feel free to ADD to it to
       show off for extra credit
     * mySculpture.mov, or other video format that can be run on multiple platforms.
-      The video should be between 10 and 15 seconds long.
+      The video should be around 30 seconds long.
   
 To create the video, you can use a program to record your screen as you run 
 your program (see PA8 writeup), or you can simply record your screen with your smartphone or tablet. 
