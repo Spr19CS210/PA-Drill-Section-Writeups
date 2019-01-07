@@ -5,10 +5,9 @@ credits: Russ Lewis wrote most of the original drills for 127A&B in CloudCoder,
          Michelle Strout and Allison Obourn developed drills to support the PAs in 210
 
 This file is online at github 
-https://github.com/UACS210Fall2018/PA-Drill-Section-Writeups/new/master/Drills.
+https://github.com/Spr19CS210/PA-Drill-Section-Writeups/tree/master/Drills
 
-
-## Drills for Fall 2018
+## Drills for Spring 2019
 
 Computer Science is the art of solving problems with computers.  The main mechanism
 we use to solve problems with a computer is programming.  This semester, you will be 
@@ -17,15 +16,15 @@ decades, Java has been the first or second most popular programming language
 (https://fossbytes.com/most-popular-programming-languages/).
 
 Programming is a skill that like all other skills require practice to learn and improve.  
-In CS 210 this Fall 2018, you will be doing programming drills that are due on Fridays.
+In CS 210 this Spring 2019, you will be doing programming drills that are due on Wednesdays.
 These drills provide you an opportunity to learn and practice the basic syntax and semantics
 of Java and how to use Java to solve and test solutions for the kinds of problems
 that will appear in the larger programming assignments.
 
 *IMPORTANT:* The drills are meant to take less than one hour to 
-complete each week.  If you get stuck, then post a question on piazza
-right away.  You can post a question anonymously to your classmates
-or privately the to CS 210 instructors and section leaders.
+complete each week.  If you get stuck, then post a question on piazza.
+You can post a question anonymously to your classmates
+or privately to the to CS 210 instructor and section leaders.
 
 ### Getting Started with Drills
 
@@ -34,7 +33,7 @@ which you will be using all semester.  No one but you and the CS 210 staff
 can see the code in your private drill repository.
 
  * (ONE TIME SETUP) Each student will create their own drill code repository by 
-   accepting the drill assignment at https://classroom.github.com/a/dzc3_cjr.
+   accepting the drill assignment at TBD(1/7/2019).
    The github account you use must have your netid@email.arizona.edu email
    address associated with it for you to accept assignments in github for CS 210.
    ALL of your drills should be committed and pushed to your drill github repository to 
@@ -49,10 +48,10 @@ can see the code in your private drill repository.
 
 ### Running a Drill within Eclipse
 
-In the src/edu/uacs210fall2018/drill##/ directories, there will be
+In the src/edu/uacs210spr2019/drill##/ directories, there will be
 a Drill##.java file (and later other files) that you will be editing.
    
-Give it a try!  There is a src/edu/uacs210fall2018/drill00/ 
+Give it a try!  There is a src/edu/uacs210spr2019/drill00/ 
 subdirectory with the files Drill00TestClass.java and Drill00.java.
    
      * In the Eclipse Package Explorer, right click on the 
@@ -77,10 +76,10 @@ to the appropriate drill assignment in Gradescope.
 
 #### (1) Downloading the files for the drill
 
-For each drill assignment, there is a src/edu/uacs210fall2018/drill##/
+For each drill assignment, there is a src/edu/uacs210spr2019/drill##/
 subdirectory in your drill github repository.  Your drill github repository
 was initially copied from the drills public repository
-https://github.com/UACS210Fall2018/Drills-Public.  The repository starts
+https://github.com/UACS210spr2019/Drills-Public.  The repository starts
 with at least the files for drill00 and drill01.
 
 As the semester progresses, we will be posting the Drill##TestClass.java, 
