@@ -48,10 +48,10 @@ can see the code in your private drill repository.
 
 ### Running a Drill within Eclipse
 
-In the src/edu/uacs210spr2019/drill##/ directories, there will be
+In the src/edu/spr19cs210/drill##/ directories, there will be
 a Drill##.java file (and later other files) that you will be editing.
    
-Give it a try!  There is a src/edu/uacs210spr2019/drill00/ 
+Give it a try!  There is a src/edu/spr19cs210/drill00/ 
 subdirectory with the files Drill00TestClass.java and Drill00.java.
    
      * In the Eclipse Package Explorer, right click on the 
@@ -76,10 +76,10 @@ to the appropriate drill assignment in Gradescope.
 
 #### (1) Downloading the files for the drill
 
-For each drill assignment, there is a src/edu/uacs210spr2019/drill##/
+For each drill assignment, there is a src/edu/spr19cs210/drill##/
 subdirectory in your drill github repository.  Your drill github repository
 was initially copied from the drills public repository
-https://github.com/UACS210spr2019/Drills-Public.  The repository starts
+https://github.com/Spr19CS210/Drills-Public.  The repository starts
 with at least the files for drill00 and drill01.
 
 As the semester progresses, we will be posting the Drill##TestClass.java, 
