@@ -33,7 +33,7 @@ which you will be using all semester.  No one but you and the CS 210 staff
 can see the code in your private drill repository.
 
  * (ONE TIME SETUP) Each student will create their own drill code repository by 
-   accepting the drill assignment at TBD(1/7/2019).
+   accepting the drill assignment at https://classroom.github.com/a/3EVlyjtr.
    The github account you use must have your netid@email.arizona.edu email
    address associated with it for you to accept assignments in github for CS 210.
    ALL of your drills should be committed and pushed to your drill github repository to 
