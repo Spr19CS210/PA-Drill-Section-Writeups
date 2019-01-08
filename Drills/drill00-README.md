@@ -1,4 +1,4 @@
-# Drill00 (posted July 2018, due Friday August 24th at 11:30pm)
+# Drill00 (posted 1/7/2019, due Monday January 14th at 11:30pm)
 
 In this drill all of the problems have already been solved for you.  See
 PA-Drill-Section-Writeups/Drills/README.md for how to get started with 
