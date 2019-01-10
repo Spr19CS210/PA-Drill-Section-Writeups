@@ -65,8 +65,10 @@ does not follow the input format can result in undefined behavior.
 
 ## Getting Started
 
-1. Use the assignment URL https://classroom.github.com/a/r1nCUNE\_ to set 
-up a github repository.  And then click on that repository in your 
+1. Use the assignment URL https://classroom.github.com/a/r1nCUNE_
+Please note that the underscore is included in the link. For some reason github
+won't allow me to link with the underscore at the end. So type the underscore in manually.
+to set up a github repository.  And then click on that repository in your 
 web browser (pa1-gradenator-yourgithubid).
 
 2. Click on the green "Clone or download" button on the right of the web page
