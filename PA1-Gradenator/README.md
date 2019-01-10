@@ -65,7 +65,7 @@ does not follow the input format can result in undefined behavior.
 
 ## Getting Started
 
-1. Use the assignment URL https://classroom.github.com/a/r1nCUNE_ to set 
+1. Use the assignment URL https://classroom.github.com/a/r1nCUNE\_ to set 
 up a github repository.  And then click on that repository in your 
 web browser (pa1-gradenator-yourgithubid).
 
