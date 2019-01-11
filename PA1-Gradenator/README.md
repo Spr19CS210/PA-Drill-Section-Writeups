@@ -65,9 +65,7 @@ does not follow the input format can result in undefined behavior.
 
 ## Getting Started
 
-1. Use the assignment URL https://classroom.github.com/a/r1nCUNE_
-Please note that the underscore is included in the link. For some reason github
-won't allow me to link with the underscore at the end. So type the underscore in manually.
+1. Use the assignment [link](https://classroom.github.com/a/r1nCUNE_)
 to set up a github repository.  And then click on that repository in your 
 web browser (pa1-gradenator-yourgithubid).
 
