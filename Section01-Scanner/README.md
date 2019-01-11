@@ -58,10 +58,16 @@ Copy the code below into main and run it to make sure it compiles and prints.
         System.out.println("Welcome to Section 1!");
 ```
 
+You will want to put the code in main method. You can find that in
+section1-scanner-username > src > (default package) > Section1Main.java where
+'username' is your github username. 
+
 Then commit and push your changes to github. Here is a reminder of the steps:
 Right click on Section1Main.java --> Team --> Commit, move unstaged files 
 that you want to commit into staged changes, put in a commit message, and 
-then click commit and push.
+then click commit and push. It is critical that you press the 'commit and push'
+button. If you click the button that just says 'commit', then you need to go to
+Team > Repository > Push Branch 'master'.
 
 ### Step One - Read in the filename
 Similar to PA1 you will be reading in a file from the console. Begin by prompting the user for the file name by looking at PublicTestCases/pa1-inputPA1writeup.out to see the expected output. Now initialize a Scanner object as demonstrated in the example above, specifying System.in as the input stream. Use this to call next(), which will return the file name as a String. You can check that this was done successfully by printing out the file name.
@@ -80,7 +86,7 @@ See the reminders below for methods relating to Scanner.
 * new Scanner(new File(fileName))
   * hasNextLine()
   * nextLine()
-  * close()
+* close()
 
 ### Experimentation now that you have done Section assignment
 Here is example code demonstrating how Scanner is used with doubles. It assigns each 
@@ -92,7 +98,7 @@ public static void main(String[] args) {
   
     try {
         Scanner input = new Scanner(new File(fileName));
-        while (input.hasNextDouble() {
+        while (input.hasNextDouble()) {
             double n = input.nextDouble();
         }
         input.close();
