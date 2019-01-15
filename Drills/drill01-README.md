@@ -38,7 +38,7 @@ being the key and the number of times that category appears being the value.
 
 ## numPositions
 
-Proactice looking up information in nested maps.
+Practice looking up information in nested maps.
 
 Description:
 Given a mapping of categories to a map of locations to a count of how many of that
