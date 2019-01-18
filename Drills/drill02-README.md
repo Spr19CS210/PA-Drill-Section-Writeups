@@ -27,36 +27,6 @@ from their order in the original string `s`. If the character is a letter of the
 all occurrences of that letter in either upper or lowercase should be moved to the end and 
 converted to uppercase. If `s` does not contain `c`, it should be returned unmodified.
 
-## indexOf
-
-It is the instructor's opinion that this drill is the most challenging. It is recommended to do this drill after completing the others.
-
-Write a recursive method named `indexOf` that accepts two strings `s1` and `s2` as parameters and that returns 
-the starting index of the first occurrence of the second string `s2` inside the first string `s1`, or `-1` 
-if `s2` is not found in `s1`. The table below shows several calls to your method and their expected return 
-values. If `s2` is the empty string, always return `0` regardless of the contents of `s1`. If `s2` is longer 
-than `s1`, it of course cannot be contained in `s1` and therefore your method would return `-1` in such a 
-case. Notice that case matters; the last example returns `-1`.
-
-Call	| Value Returned
----------|----------------
-`indexOf("Barack Obama", "Bar")` |	`0`
-`indexOf("foo", "foo")	| `0`
-`indexOf("Stanford CS", "ford")`	| `4`
-`indexOf("Barack Obama", "ack")`	| `3`
-`indexOf("Barack Obama", "a")`	| `1`
-`indexOf("sandwich", "")` |	`0`
-`indexOf("Barack Obama", "McCain")` |	`-1`
-`indexOf("Barack Obama", "ACK")` |	`-1`
-
-Constraints: 
-
-Strings have member methods named `indexOf` and `lastIndexOf`, but you should not call them, 
-because they allow you to get around using recursion. Similarly, the `replace` member is forbidden. 
-Do not construct any data structures (no array, list, set, map, etc.), and do not declare any 
-global variables. You are allowed to define other "helper" methods if you like. You are also allowed
-to call the .equals() method.
-
 ## replaceAll
 
 Write a recursive method named `replaceAll` that accepts three parameters: a string `s`, a char 
@@ -104,5 +74,6 @@ Do not use any auxiliary data structures like `ArrayList`, `TreeMap`, `TreeSet`,
 not solve this problem using a string. You can declare as many primitive variables like ints as you like. 
 In the other problems concerning strings, you made "decisions" based on one character at a time. Think
 about how you can use a similar technique here on an integer. Can you get a single digit out of a larger
-integer?
+integer? Keep in mind that you don't always have to start from the front. I.e. for the number 2345, you
+could start by comparing the '2' and the '3', but you could also start by comparing the '4' and the '5'.
 
