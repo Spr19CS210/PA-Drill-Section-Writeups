@@ -67,26 +67,26 @@ subdirectory with the files Drill00TestClass.java and Drill00.java.
 
 ### Doing Drill01 through Drill09
 
-Doing a drill consists of (1) downloading the files for the drill,
-(2) adding those files to your drill repository, (3) writing code
-to solve one drill problem at a time, (3) committing and pushing your code
-frequently (everytime you run it for example), (4) testing each drill problem
-solution in Eclipse using JUnit, and (4) submitting the solution
+Doing a drill consists of downloading the files for the drill,
+adding those files to your drill repository, writing code
+to solve one drill problem at a time, committing and pushing your code
+frequently (everytime you run it for example), testing each drill problem
+solution in Eclipse using JUnit, and submitting the solution
 to the appropriate drill assignment in Gradescope.
 
 #### (1) Downloading the files for the drill
 
-For each drill assignment, there is a src/edu/spr19cs210/drill##/
-subdirectory in your drill github repository.  Your drill github repository
-was initially copied from the drills public repository
-https://github.com/Spr19CS210/Drills-Public.  The repository starts
+Your drill github repository was initially copied from the drills public
+repository https://github.com/Spr19CS210/Drills-Public.  The repository starts
 with at least the files for drill00 and drill01.
 
 As the semester progresses, we will be posting the Drill##TestClass.java, 
 Drill##.java, and any other needed files in the drills public repository.
-You can download the file to your machine and place it in the appropriate
-drill##/ subdirectory in your Eclipse Drill project.  Make sure to do a
-Team --> Commit and Push on those new files.
+We have created instructions on how to get the appropriate drill files into
+eclipse. They are posted on the piazza resources page entitled, "Starting a
+new drill". Or you can just use this link
+https://docs.google.com/document/d/1LgWyil_jYZ-YdLBoZKx4-TBZe1qd3282zjZQ_iMTZAo/edit?usp=sharing
+Make sure to do a Team --> Commit and Push on those new files.
 
 #### (2) Submitting Drills via Gradescope
 
