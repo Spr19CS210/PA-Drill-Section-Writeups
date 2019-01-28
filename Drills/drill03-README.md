@@ -7,7 +7,7 @@ Action Items
  * Copy the starter code in Shape.Java, Triangle.java, Square.java, and 
  Drill03TestClass.java into your local CS210DrillsProject. Do this exactly
  like you did for drill02. Instructions can be found on the piazza->resources
- page.
+ page, at the link titled, "Starting a new drill"
  
  * Look in Drill03TestClass.java to see how the various classes are being constructed,
  what methods are being called on them, and what the expected result should be.
