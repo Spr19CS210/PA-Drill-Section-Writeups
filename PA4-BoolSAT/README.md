@@ -235,7 +235,7 @@ are encoded in the .out files.
 
 ## Getting Started
 
-The github assignment link is at XXX TBD.  Go to that
+The github assignment link is at https://classroom.github.com/a/Q3tarCGY.  Go to that
 link to accept the github assignment and get your own private repository for PA4.
 
 ### JUnit Background Information 
