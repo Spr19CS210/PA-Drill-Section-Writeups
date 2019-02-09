@@ -367,7 +367,7 @@ Half of the PA4 grade will be correctness.  For this assignment, there
 will be some private test cases on Gradescope.
 
 The other half of the PA4 grade will be your decomposition and code clarity,
-the JUnit tests, and a peer review.
+and the JUnit tests.
 
 Decomposition
 * Should carefully select data structures that implement the
