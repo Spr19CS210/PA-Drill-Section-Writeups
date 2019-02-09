@@ -1,12 +1,24 @@
 # Drill04
 
-This drill has you doing 5 tasks that are relevant for PA4.  Go to the 
-https://github.com/UACS210Fall2018/Drills-Public repository online and
-copy the following into your local Drill project.
- * src/bool_exp/*
- * src/edu/uacs210fall2018/drill04/*
+This drill has you doing 5 tasks that are relevant for PA4. The file
+setup for this drill is slightly more complicated than previous drill
+setups. Initially set this drill up like any other: go to piazza->resources.
+Download the drill04 code. Create a new package for your drill folder. Add
+these files to that new package. This is all documented in the link "Starting a 
+new drill" on piazza->general resources. You can now do all of the drills except
+for getLexeme. For getLexeme, you also need to copy the PACKAGE bool_exp from
+PA4. Luckily this shouldn't be too difficult. You can click on it in your package
+explorer in eclipse, copy it, then click on the 'src' folder in your drills project
+and paste it there. Get an early start! Then if you have any troubles you can go to
+those Monday office hours which are usually ghost towns!  
 
-Then implement the following methods in Drill04.java.
+Implement the following methods in Drill04.java.
+
+Some of the descriptions for these drills aren't too detailed...
+Part of the goal of this drill is to get used to working with multiple classes
+and multiple files. To start, look at Drill04TestClass.java to see how we are 
+testing you. Then read through the classes you need to use in order to understand
+them.
 
 ## splitWrapper
 
@@ -28,8 +40,7 @@ Copy the bool_exp/\* files into your Drills src/ subdirectory.
 
 ## sumTree
 
-Return the sum of all the data on the given tree.  Copy the TreeNode.java
-file from Drills-Public that is in the drill04 subdirectory.
+Return the sum of all the data on the given tree.
 
 ## createConfigStr
 
