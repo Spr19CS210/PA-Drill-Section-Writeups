@@ -20,6 +20,8 @@ and multiple files. To start, look at Drill04TestClass.java to see how we are
 testing you. Then read through the classes you need to use in order to understand
 them.
 
+You only need to submit Drill04.java
+
 ## splitWrapper
 
 Separate fields by commas. Have empty strings if there is nothing between
