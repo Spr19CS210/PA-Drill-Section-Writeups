@@ -349,7 +349,7 @@ Also see all of the provided Drill\*Test.java code to see more examples of using
 When importing the statements mentioned above in the writeup, you will initially get errors
 that these imports cannot be resolved. In order to resolve this, copy in a sample test function
 with the '@Test' comment written above the function. Hover over this comment. It will give you
-an options along the lines of, "import junit 5 test suite." This will import what is necessary to
+options along the lines of, "import junit 5 test suite." This will import what is necessary to
 resolve the errors. If you want to do it manually instead, "Right-click on the project folder and
 navigate to Build Path > Add Libraries > JUnit. Pick your version, 4 or 5 should work."
 
