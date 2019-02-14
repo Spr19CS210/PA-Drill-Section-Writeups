@@ -2,16 +2,18 @@
 
 This drill has you doing 5 tasks that are relevant for PA6.  Go to
 Piazza to find the relevant files. Create a new package like you have done for
-previous drills. Instructions can be found on piazza. Note that we will be going
-through some of the important material for this drill on Tuesday. I apologize for
-that.
+previous drills. Instructions can be found on piazza.
+Note that we will be going through some of the important material for this drill on Tuesday.
+You are able to do getShapeFromGrid, byRow, and setArrayElem at any time. On Tuesday we will
+learn a tool in order to do isTriangle and isSquare.
+
 
 Then implement the following methods in Drill05.java.
 
 ## getShapeFromGrid
 
-Given a list of lists of Shapes organized in a grid and a row and column,
-return the shape in the given location.
+Given a list of lists of Shapes organized in a grid, return the shape in the given
+row and column.
 
 ## isTriangle
 
