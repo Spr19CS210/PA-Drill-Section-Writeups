@@ -42,7 +42,7 @@ The github assignment link will be posted on Tuesday 2/26.
 
 This is a three-week assignment (counting spring break). The class inheritance diagram will be all that is due
 Friday March 1 at 11:30 pm to Gradescope. We make suggestions as to what to implement after receiving your class
-hierarchy diagram. While you are responsible for managing your own time, I have added a suggested timeline later
+hierarchy diagram. While you are responsible for managing your own time, I have added a list of milestones later
 in this writeup. The assignment is due Friday, March 15 at 11:30 pm.
 
 Class inheritance diagram: Create this diagram however you would like (draw it by hand, use software, etc.). 
@@ -227,25 +227,33 @@ While we do not require you to follow this objective list, we highly recommend y
 There will also be test cases you can use to see if you are on the right track for each milestone.
 
 1 Read the writeup at least one time through, taking notes on a separate piece of paper on the important aspects.
+
 2 Think and draw your Animal class hierarchy. The design for this is what will be submitted for review on 
   Mar 1 at 11:30 pm to Gradescope. This may take multiple iterations. Think about a class hierarchy that makes sense
 	and reduces code duplication.
+
 3 Write your PA6Main.java file which reads in a file of commands and calls the appropriate classes. This file should
 	not be overly long or complex. Instead of calling the methods you have not written yet, put in "dummy" print statements.
 	For example if REPRODUCE [type] is called, just have PA6Main.java print out "REPRODUCE lion called".
+
 4	Write your Ecosystem.java file which will keep track of your grid of animals. Presumably, this file will hold the
 	functionality for the PRINT command. Write this print command and test that it prints off empty grids of the correct
 	size.
+
 5	Write the barebones skeleton of your Animal classes. At the very least you should be able to create each animal type.
+
 6	Write the necessary code for CREATE. You should now be testing your code with every incremental change. With CREATE,
 	you can now look at the different test cases we have provided to ensure you are placing animals correctly after having
 	been created.
+
 7	MOVE: specifically MOVE for mammals, then for birds, then for insects. After MOVE for each animal type, compare your
 	output to the test cases we have provided that moves those specific animal types. Catching bugs earlier rather than
 	later will make your life much easier. Also we recommend that you implement the general MOVE, before moving on to the
 	specific types like MOVE (x,y) and MOVE [type], and MOVE [animal]. It is imperative to your success that you test
 	each successive change as you write your code.
+
 8	Reproduce: follow a similar pattern as you did for the MOVE command in step 7.
+
 9 Tie together any loose ends. This should include a full review of your code to see if you can simplify anything. It
 	is recommended that you commit and push before reviewing/changing your code in case you break anything.
 
