@@ -228,6 +228,7 @@ There will also be test cases you can use to see if you are on the right track f
 
 1 Read the writeup at least one time through, taking notes on a separate piece of paper on the important aspects.
 
+
 2 Think and draw your Animal class hierarchy. The design for this is what will be submitted for review on 
   Mar 1 at 11:30 pm to Gradescope. This may take multiple iterations. Think about a class hierarchy that makes sense
 	and reduces code duplication.
