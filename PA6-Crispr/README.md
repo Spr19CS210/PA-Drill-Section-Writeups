@@ -241,21 +241,25 @@ There will also be test cases you can use to see if you are on the right track f
 	functionality for the PRINT command. Write this print command and test that it prints off empty grids of the correct
 	size.
 
-5	Write the barebones skeleton of your Animal classes. At the very least you should be able to create each animal type.
+5	Go through multiple test cases in the PublicTestCases folder. Make sure that you understand why the output performs
+	as it does. If you don't understand post on piazza. It is also possible that there are some errors in the output. Many
+	of the test cases were created new to be able to test smaller parts of the assignment.
 
-6	Write the necessary code for CREATE. You should now be testing your code with every incremental change. With CREATE,
+6	Write the barebones skeleton of your Animal classes. At the very least you should be able to create each animal type.
+
+7	Write the necessary code for CREATE. You should now be testing your code with every incremental change. With CREATE,
 	you can now look at the different test cases we have provided to ensure you are placing animals correctly after having
 	been created.
 
-7	MOVE: specifically MOVE for mammals, then for birds, then for insects. After MOVE for each animal type, compare your
+8	MOVE: specifically MOVE for mammals, then for birds, then for insects. After MOVE for each animal type, compare your
 	output to the test cases we have provided that moves those specific animal types. Catching bugs earlier rather than
 	later will make your life much easier. Also we recommend that you implement the general MOVE, before moving on to the
 	specific types like MOVE (row, column) and MOVE [type], and MOVE [animal]. It is imperative to your success that you test
 	each successive change as you write your code.
 
-8	Reproduce: follow a similar pattern as you did for the MOVE command in step 7.
+9	Reproduce: follow a similar pattern as you did for the MOVE command in step 7.
 
-9 Tie together any loose ends. This should include a full review of your code to see if you can simplify anything. It
+10	Tie together any loose ends. This should include a full review of your code to see if you can simplify anything. It
 	is recommended that you commit and push before reviewing/changing your code in case you break anything.
 
 ## Grading Criteria
