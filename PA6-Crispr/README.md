@@ -242,8 +242,9 @@ There will also be test cases you can use to see if you are on the right track f
 	size.
 
 5	Go through multiple test cases in the PublicTestCases folder. Make sure that you understand why the output performs
-	as it does. If you don't understand post on piazza. It is also possible that there are some errors in the output. Many
-	of the test cases were created new to be able to test smaller parts of the assignment.
+	as it does. If you don't understand, post on piazza. While we hope this is not the case, It is also possible that
+	there are some errors in the test case outputs. Many of the test cases were created new to be able to test smaller
+	parts of the assignment.
 
 6	Write the barebones skeleton of your Animal classes. At the very least you should be able to create each animal type.
 
