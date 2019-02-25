@@ -164,11 +164,11 @@ should be moved in the order they got there.
     have one step on each side. The number of steps should increase by one each time a square is completed. This movement
 		is the most complicated one. Implement move for mammals first, then birds, then insects.
     
-### MOVE (x,y)
+### MOVE (row,column)
 ```
 EXAMPLE USE: MOVE (2,3)
 ```
-Move any animals located in the ecosystem at position (x,y) num times. If there is nothing at this position or the position is outside the size of the ecosystem, don't do anything.
+Move any animals located in the ecosystem at position (row ,column) num times. If there is nothing at this position or the position is outside the size of the ecosystem, don't do anything.
 
 ### MOVE [type]
 ```
@@ -196,11 +196,11 @@ create a third animal of that type in that location that is female.
     (which describes the direction the mosquito moves) is false. The second value comes from the first parent. 
     The third value comes from the second parent.
 
-### REPRODUCE (x,y)
+### REPRODUCE (row, column)
 ```
 EXAMPLE USE: REPRODUCE (2,3)
 ```
-Animals at location (x,y) should try to reproduce.
+Animals at location (row, column) should try to reproduce.
 
 ### REPRODUCE [type]
 ```
@@ -250,7 +250,7 @@ There will also be test cases you can use to see if you are on the right track f
 7	MOVE: specifically MOVE for mammals, then for birds, then for insects. After MOVE for each animal type, compare your
 	output to the test cases we have provided that moves those specific animal types. Catching bugs earlier rather than
 	later will make your life much easier. Also we recommend that you implement the general MOVE, before moving on to the
-	specific types like MOVE (x,y) and MOVE [type], and MOVE [animal]. It is imperative to your success that you test
+	specific types like MOVE (row, column) and MOVE [type], and MOVE [animal]. It is imperative to your success that you test
 	each successive change as you write your code.
 
 8	Reproduce: follow a similar pattern as you did for the MOVE command in step 7.
