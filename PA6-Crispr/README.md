@@ -36,7 +36,8 @@ the later assignments.
 
 ## Getting Started
 
-The github assignment link will be posted on Tuesday 2/26. 
+The github assignment link is https://classroom.github.com/a/fSoJkatG.
+Please note that the gradescope assignment has not been released yet.
 
 ## The Assignment
 
