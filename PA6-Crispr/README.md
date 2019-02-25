@@ -187,7 +187,7 @@ For all locations, the first two animals at that location should try to reproduc
 two animals need to be the same species and opposite genders. If the pair of animals reproduce successfully,
 create a third animal of that type in that location that is female. 
   * Mammals can each only reproduce 5 times. Baby mammals should be passed `right`.
-  * Birds can only reproduce if their last step was down or right. Baby birds should be passed 5.
+  * Birds can always reproduce. Baby birds should be passed 5.
   * Insects, except mosquitos (as they are our Crispr editted species) always reproduce. Baby insects should be passed true.
   * Mosquitos carry two genes related to reproduction (the last two boolean parameters given when they are 
     created). If these are both true, the mosquito cannot reproduce.  Baby mosquitos should be passed false and 
