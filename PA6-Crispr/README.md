@@ -195,7 +195,8 @@ create a third animal of that type in that location that is female.
     a boolean value indicating whether it has edited genes from each parent. If the parent has edited genes 
     the new mosquito should be passed true for that parent.  In other words, the value of the first boolean 
     (which describes the direction the mosquito moves) is false. The second value comes from the first parent. 
-    The third value comes from the second parent.
+    The third value comes from the second parent. i.e. Each mosquito has two genes. If either one is modified
+		then it will pass on true to its child to indicate that the child receives a modified gene from its parent.
 
 ### REPRODUCE (row, column)
 ```
