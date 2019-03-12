@@ -169,7 +169,7 @@ should be moved in the order they got there.
 ```
 EXAMPLE USE: MOVE (2,3)
 ```
-Move any animals located in the ecosystem at position (row ,column) num times. If there is nothing at this position or the position is outside the size of the ecosystem, don't do anything.
+Move any animals located in the ecosystem at position (row ,column). If there is nothing at this position or the position is outside the size of the ecosystem, don't do anything.
 
 ### MOVE [type]
 ```
@@ -181,7 +181,7 @@ Move only animals of the specified type.
 ```
 EXAMPLE USE: MOVE mammal 
 ```
-Move only animals of the specified class num times.
+Move only animals of the specified class.
 
 ### REPRODUCE
 For all locations, the first two animals at that location should try to reproduce. In order to reproduce the
