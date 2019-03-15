@@ -42,7 +42,7 @@ called MyHashMap.  Here are the key components of this assignment:
 
 ## Getting Started
 
-Here is the github assignment link: XXX Will post soon.
+Here is the github assignment link: https://classroom.github.com/a/rkWox57l
 
 Recommended approach for iteratively implementing the below.  At each of these
 steps we recommend you submit to gradescope what you have running even if you are
