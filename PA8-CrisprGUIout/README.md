@@ -20,7 +20,7 @@ In the video example files in the publicTestcases folder,
 each animal (i.e., each character from the PA6 output) is represented 
 by a uniquely colored tile on a canvas.
 
-Please open and watch 'PublicTestCases/Ecosystem.mov' to see an example GUI 
+Please open and watch 'PublicTestCases/Ecosystem.mp4' to see an example GUI 
 output for the input file 'PublicTestCases/Ecosystem.in'.
 
 You should also be looking at the PA6-Crispr writeup to refresh your memory on 
@@ -45,7 +45,7 @@ MOVE
 ```
 
 The number after 'delay:' is a **double** that represents the time to wait 
-before each command executed. In the video example (PublicTestCases/Ecosystem.mov),
+before each command executed. In the video example (PublicTestCases/Ecosystem.mp4),
 this delay was set to **.5**, therefore, each command was executed after waiting a half second.
 
 ## PA6 Requirement Changes
