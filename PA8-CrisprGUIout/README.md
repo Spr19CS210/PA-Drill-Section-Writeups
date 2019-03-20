@@ -1,4 +1,4 @@
-# PA8-Crispr-GUI (Initial Posting, not quite complete)
+# PA8-Crispr-GUI
 
 ## Learning Objectives
 
