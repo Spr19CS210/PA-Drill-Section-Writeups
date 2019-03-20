@@ -10,7 +10,7 @@ decomposition from the PA6 programming assignment.
 
 ## The Assignment
 
-In this assignment, you will build on the PA6-Crispr implemention
+In this assignment, you will build on the PA6-Crispr implementation
 to visually represent your ecosystem simulation.
 
 For PA8, you will be graphically representing each animal in 
@@ -159,7 +159,7 @@ Animals must eat to stay alive. Additionally animals will only stay alive for a 
 
 
 If you decide to implement these methods, you must show your own test cases and outputs for those 
-test cases. Additionally include a readme describing your implementation and how it works.
+test cases. Additionally, include a README describing which test cases you used, your implementation, and how it works.
 
 
 ## Grading Criteria
