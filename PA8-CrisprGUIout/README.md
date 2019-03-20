@@ -69,7 +69,7 @@ many turns. Details for these implementations are below under the 'Extra Credit'
     The tutorial is also posted on the CS 210 resources webpage 
     https://piazza.com/arizona/spring2019/csc210/resources
 
- 2. Accept the github assignment for PA8, XXX will update this link soon
+ 2. Accept the github assignment for PA8, [https://classroom.github.com/a/AR45gqck]
     Import your PA8 github repository into Eclipse as usual.
  
  3. Run the given starter code and see what it does.
