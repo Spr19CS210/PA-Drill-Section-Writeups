@@ -234,7 +234,7 @@ that were pointed out in your PA6 grading or receive further deductions.
 ## Submission
 
 For this assignment, you are **REQUIRED** to submit all of the following files
-to Gradescope before Firday April 5th at 11:30pm.
+to Gradescope before Friday April 5th at 11:30pm.
   * All the Java source files needed to run your program.
   * Ecosystem.mp4, or other video format that can be run on multiple platforms
   
