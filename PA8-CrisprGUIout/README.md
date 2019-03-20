@@ -21,7 +21,7 @@ each animal (i.e., each character from the PA6 output) is represented
 by a uniquely colored tile on a canvas.
 
 Please open and watch 'PublicTestCases/Ecosystem.mov' to see an example GUI 
-output for the input file 'PublicTestCases/Ecosystem.in'.  
+output for the input file 'PublicTestCases/Ecosystem.in'.
 
 You should also be looking at the PA6-Crispr writeup to refresh your memory on 
 how it works: https://github.com/Spr19CS210/PA-Drill-Section-Writeups/tree/master/PA6-Crispr
@@ -54,7 +54,6 @@ Your code from PA6 should behave according to the PA6 writeup except in the foll
 
 * When animals reproduce the baby should be assigned a gender randomly
 * Baby mammals created from a reproduce command should be assigned a direction randomly
-* Baby birds created from a reproduce command should be assigned a step value between 1 and 10 randomly
 * Baby insects created from a reproduce command should be assigned a clockwise boolean randomly
 
 The above changes will lead to a more interesting simulation.
