@@ -156,6 +156,8 @@ Animals must eat to stay alive. Additionally animals will only stay alive for a 
   * Mammals die of old age after 25 moves, when eaten, or if they haven't eaten in 10 moves.
   * Birds die of old age after 15 moves or if they haven't eaten in 5 moves.
   * Insects die of old age after 10 moves and when eaten.
+
+
 If you decide to implement these methods, you must show your own test cases and outputs for those 
 test cases. Additionally include a readme describing your implementation and how it works.
 
