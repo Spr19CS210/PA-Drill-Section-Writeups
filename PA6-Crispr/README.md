@@ -1,4 +1,4 @@
-# PA6-Crispr (Initial Posting, gradescope plus starter code will be posted on Tuesday)
+# PA6-Crispr
 
 ## Learning Objectives
 
