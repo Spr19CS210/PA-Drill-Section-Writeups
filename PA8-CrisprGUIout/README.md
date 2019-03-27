@@ -142,13 +142,14 @@ each other. Only alive animals should remain in your ecosystem.
 ```
 EXAMPLE USE: EAT (2,3)
 ```
-Any animals at (row,col) should eat. 
+The first two animals at (row,col) should eat. 
 
 ### Eat [type]
 ```
 EXAMPLE USE: Eat lion
 ```
-Has all animals of the specified type eat. If there are no animals with that type, do nothing.
+Has animals of the specified type eat. Like the other EAT commands, it only checks the first two animals
+at any location. If there are no animals with that type, do nothing.
 
 
 Animals must eat to stay alive. Additionally animals will only stay alive for a certain number of moves.
