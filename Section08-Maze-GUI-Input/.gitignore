@@ -1,0 +1,5 @@
+/E19MazeOutput.class
+/MazeGUIInput$CommandHandler.class
+*.class
+.classpath
+.project
