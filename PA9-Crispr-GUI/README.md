@@ -49,7 +49,7 @@ be reading in both the number of rows and number of columns of the ecosystem.
 
 ## Steps for completing this assignment
 
- 1. Accept the github assignment for PA9, [XXX Will be updated soon].  
+ 1. Accept the github assignment for PA9, [https://classroom.github.com/a/ateEspXb].  
     Import your PA9 github repository into Eclipse as usual.
  
  2. Play around with the given PA9 starter code that does something with the 
