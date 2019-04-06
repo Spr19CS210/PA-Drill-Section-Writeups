@@ -1,4 +1,3 @@
-HELLOOOOO
 # PA9-Crispr
 NOTE: This assignment is due THURSDAY April 11th at 11:30PM. This is because
 you will be demoing your project to your section leaders in section.
