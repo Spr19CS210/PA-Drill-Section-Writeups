@@ -115,7 +115,7 @@ input: RED, BLUE
 
  0. Start NOW!    
 
- 1. Accept the github assignment for PA10, [XXX will update soon].
+ 1. Accept the github assignment for PA10, [https://classroom.github.com/a/0riTiUPi].
     Import your PA10 github repository into Eclipse as usual.
  
  2. Run the PA10hardcoded.java and see what it does.
