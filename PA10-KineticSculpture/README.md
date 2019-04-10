@@ -171,7 +171,7 @@ Decomposition
   should have been encapsulated in a method.
 
 * **This program should use fewer than 10 .java files.**
-  Each of these files should be (<200 lines).  Do NOT include
+  Each of these files should be (<225 lines).  Do NOT include
   PA10hardCodedDemo.java.
 
 * Each method should be less than 30 lines.  This INCLUDES
