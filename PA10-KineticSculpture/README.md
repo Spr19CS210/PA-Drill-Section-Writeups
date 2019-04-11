@@ -77,7 +77,7 @@ input: RED, BLUE
     should go from the middle of the right side of the first node to 
     the middle of the left side of the second node.
     You can set the width and height of the nodes as you wish.
-    Run the provided PA10hardCodedDemp start code for an example.
+    Run the provided PA10hardCodedDemo start code for an example.
     
   * Create a class hierarchy for kinetic sculpture nodes.
     Required nodes include:
